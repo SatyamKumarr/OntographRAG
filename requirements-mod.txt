@@ -1,0 +1,143 @@
+# Core FastAPI and web framework
+fastapi
+uvicorn
+slowapi
+gunicorn
+starlette
+python-multipart
+aiofiles
+
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-anthropic
+langchain-openai
+langchain-google-genai
+langchain-google-vertexai
+langchain-huggingface
+langchain-experimental
+langsmith
+
+# AI/ML providers
+openai
+anthropic
+google-generativeai>=0.8.5
+ollama
+
+# Machine Learning and NLP
+torch
+transformers
+sentence-transformers
+huggingface-hub
+accelerate
+tokenizers
+safetensors
+tiktoken
+datasets
+
+# Scientific computing
+numpy
+matplotlib
+pandas
+scikit-learn
+scipy
+
+# NLP libraries
+spacy
+spacy-legacy
+spacy-loggers
+nltk
+langdetect
+langcodes
+
+# Vector database and embeddings
+chromadb
+
+# Graph databases
+neo4j
+langchain-neo4j
+boto3
+botocore
+pyarrow
+
+# Document processing
+pypdf
+PyPDF2
+PyMuPDF
+unstructured
+unstructured-client
+beautifulsoup4
+lxml
+
+# Ontology and knowledge graphs
+owlready2
+
+# HTTP and networking
+httpx
+httpx-sse
+requests
+urllib3
+
+# Data validation and serialization
+pydantic
+pydantic-settings
+pydantic_core
+
+# Configuration and environment
+python-dotenv
+
+# Utilities
+tqdm
+regex
+validators
+click
+typer
+Unidecode
+
+# JSON processing
+orjson
+ujson
+ijson
+
+# Time and timezone
+pytz
+tzdata
+
+# Development and testing
+coverage
+
+# System and performance
+llvmlite
+onnxruntime
+
+# Web server utilities
+h11
+httptools
+websockets
+#uvloop
+watchfiles
+
+# Async utilities
+anyio
+asgiref
+
+# Text processing
+srsly
+wasabi
+
+# Type hints
+typing_extensions
+
+# Telemetry and monitoring
+opentelemetry-api
+opentelemetry-exporter-otlp-proto-common
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation
+opentelemetry-instrumentation-asgi
+opentelemetry-instrumentation-fastapi
+opentelemetry-proto
+opentelemetry-sdk
+opentelemetry-semantic-conventions
+opentelemetry-util-http
