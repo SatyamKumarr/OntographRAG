@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "kgs": [
+    {
+      "name": "bfsi_demo-121126",
+      "kg_name": "bfsi_demo-121126",
+      "document_count": 1,
+      "last_updated": "2026-11-12T09:36:07.547000000+00:00"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "kg_name": "bfsi_demo-121126",
+  "entities": [
+    {
+      "id": "bfsi_demo-121126_7fcf9d2f-88c1-5e14-9d95-119cf96a8e02",
+      "name": "ANB",
+      "type": "Branch",
+      "description": "Branch: ANB",
+      "labels": [
+        "__Entity__",
+        "Branch"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_f69a8a44-b268-5bcb-b82d-a8762a18b248",
+      "name": "Apex National Bank",
+      "type": "Branch",
+      "description": "Fictional commercial bank established in 2010",
+      "labels": [
+        "__Entity__",
+        "Branch"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_72ea5bfd-227c-51a1-b3dd-8f8b062baab6",
+      "name": "ApexCore",
+      "type": "InformationSecurityEntity",
+      "description": "Fictional Core Banking System",
+      "labels": [
+        "__Entity__",
+        "InformationSecurityEntity"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_bf03de35-55dd-5248-bbee-5c77c2aed5b0",
+      "name": "Business Loan",
+      "type": "Loan",
+      "description": "Credit facility for registered businesses",
+      "labels": [
+        "__Entity__",
+        "Loan"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_af8a8509-ac6a-5806-9e19-b9cfd9c162b1",
+      "name": "Deposit Account",
+      "type": "Account",
+      "description": "Type of account offered by Apex National Bank",
+      "labels": [
+        "__Entity__",
+        "Account"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_c6e96e3a-dbb2-5b64-b43a-ff3c8f743c74",
+      "name": "Hyderabad, India",
+      "type": "Branch",
+      "description": "Bank headquarters location",
+      "labels": [
+        "__Entity__",
+        "Branch"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_78c2ea9d-6606-517e-b249-b4c40e629dee",
+      "name": "Personal Loan",
+      "type": "Loan",
+      "description": "Unsecured credit facility offered to eligible customers",
+      "labels": [
+        "__Entity__",
+        "Loan"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_cb1462ae-3c2a-5dc0-95c8-a80e0432e1dd",
+      "name": "Savings Account",
+      "type": "Account",
+      "description": "Deposit account for individual customers",
+      "labels": [
+        "__Entity__",
+        "Account"
+      ]
+    },
+    {
+      "id": "bfsi_demo-121126_f18c6930-2067-5a11-83b9-79aec90ba3e7",
+      "name": "digital banking services",
+      "type": "DigitalWallet",
+      "description": "Banking service channel provided by Apex National Bank",
+      "labels": [
+        "__Entity__",
+        "DigitalWallet"
+      ]
+    }
+  ],
+  "count": 9
+}
