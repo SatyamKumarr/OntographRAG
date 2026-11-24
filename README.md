@@ -62,7 +62,7 @@ The framework supports multiple model providers:
 **Video:**
 
 <video width="720" height="540" controls>
-  <source src="OntographRAG UI BFSI demo.mp4" type="video/mp4">
+  <source src="./OntographRAG UI BFSI demo.mp4" type="video/mp4">
 </video>
 
 ## Installation
