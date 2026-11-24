@@ -1,0 +1,46 @@
+1. Merchant overview
+Merchants are financial entities accepting electronic payments for goods or services.Merchant records are connected to payment transactions, payment terminals, settlement records, chargebacks, and refunds.
+
+2. Synthetic merchant master
+MER-3001: Northstar Retail Services
+Merchant Category: Retail
+Location: Hyderabad
+Merchant Status: ACTIVE
+Acquiring Institution: Meridian National Bank
+Payment Channels: POS and E-commerce
+Risk Category: LOW
+MER-3002: BluePeak Digital Services
+Merchant Category: Digital Services
+Location: Bengaluru
+Merchant Status: ACTIVE
+Risk Category: MEDIUM
+MER-3003: Silverline Electronics
+Merchant Category: Electronics
+Location: Mumbai
+Merchant Status: ACTIVE
+Risk Category: MEDIUM
+
+3. Transaction history
+Transaction	Merchant	Amount	Status
+PAY-2026-0003	MER-3001	INR 12,750	DECLINED
+PAY-2026-0010	MER-3001	INR 8,900	SETTLED
+PAY-2026-0011	MER-3002	INR 24,500	SETTLED
+PAY-2026-0012	MER-3003	INR 67,000	DISPUTED
+
+4. Merchant monitoring
+Merchant monitoring evaluates:
+Transaction frequency.
+Average ticket size.
+Refund frequency.
+Chargeback ratio.
+Settlement delays.
+Unusual geographic patterns.
+Merchant account status.
+
+A high chargeback ratio may lead to enhanced monitoring and a merchant risk assessment.
+
+RAG retrieval questions
+Which merchant received PAY-2026-0011?
+What is the risk classification of MER-3002?
+Which merchant has a disputed transaction?
+What information is required for merchant monitoring?

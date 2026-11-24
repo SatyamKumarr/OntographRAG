@@ -1,0 +1,163 @@
+INFORMATION ASSET REGISTER AND CLASSIFICATION REPORT
+Reporting Period: October 2026
+
+1. Purpose
+This report provides a structured inventory of information assets used across banking operations.
+It identifies important information assets, their business ownership, classification, storage locations, security requirements, access responsibilities, and associated risks.
+
+The register supports information security governance, data protection, business continuity, vulnerability management, and regulatory compliance.
+
+2. Information asset inventory
+Asset ID	Information Asset	Asset Category	Classification	Owner
+AST-1001	Customer Information Database	Database	CONFIDENTIAL	Data Management
+AST-1002	Core Banking Application	Application	RESTRICTED	IT Operations
+AST-1003	Digital Banking Platform	Application	CONFIDENTIAL	Digital Banking
+AST-1004	Payment Processing Database	Database	RESTRICTED	Payment Operations
+AST-1005	Employee Information Repository	Database	CONFIDENTIAL	Human Resources
+AST-1006	Loan Documentation Repository	Document Repository	CONFIDENTIAL	Credit Operations
+AST-1007	Backup Storage Infrastructure	Infrastructure	RESTRICTED	Infrastructure Team
+AST-1008	Customer Consent Repository	Database	CONFIDENTIAL	Privacy Office
+AST-1009	Security Audit Log Repository	Log Repository	RESTRICTED	Security Operations
+AST-1010	Regulatory Reporting Database	Database	CONFIDENTIAL	Compliance Department
+
+3. Detailed asset observations
+3.1 Customer information database
+Asset AST-1001 stores customer identification information, contact details, account references, and customer-related operational records.
+
+The asset supports customer onboarding, account servicing, compliance verification, and banking operations.
+
+Security requirements:
+Role-based access control.
+Encryption of sensitive information.
+Periodic access reviews.
+Database activity monitoring.
+Retention and disposal controls.
+
+Associated risks: Unauthorized access, accidental disclosure, data corruption, and inappropriate retention.
+
+3.2 Core banking application
+Asset AST-1002 supports account servicing, financial transactions, balance maintenance, and banking operations.
+Due to its critical operational importance, the application requires strict access governance and availability monitoring.
+
+Security requirements:
+Privileged access management.
+Change management.
+Transaction audit logging.
+Application security testing.
+Backup and recovery validation.
+
+Associated risks: Service interruption, unauthorized modification, configuration weaknesses, and privileged access misuse.
+
+3.3 Digital banking platform
+Asset AST-1003 provides customers with digital access to banking services.
+
+The platform processes authentication requests, account inquiries, and customer banking activities.
+
+Security requirements:
+Secure authentication.
+Session management.
+Application vulnerability monitoring.
+Access logging.
+Customer data protection.
+
+3.4 Payment processing database
+Asset AST-1004 maintains payment processing information and transaction-related operational records.
+Its security classification is restricted because unauthorized access or modification could affect financial operations.
+
+Security requirements:
+
+Restricted database access.
+Transaction integrity controls.
+Audit trail preservation.
+Backup validation.
+Segregation of administrative responsibilities.
+
+3.5 Customer consent repository
+Asset AST-1008 stores records of customer consent, consent status, collection dates, processing purposes, and withdrawal requests.
+
+The repository supports privacy governance and evidence of customer authorization.
+
+Security requirements:
+Consent record integrity.
+Access restriction.
+Version history.
+Retention management.
+Traceability of consent changes.
+
+4. Asset ownership and accountability
+Asset ID	Business Owner	Technical Custodian	Review Frequency
+AST-1001	Customer Operations	Database Administration	Quarterly
+AST-1002	Banking Operations	IT Operations	Quarterly
+AST-1003	Digital Banking	Application Support	Quarterly
+AST-1004	Payment Operations	Database Administration	Quarterly
+AST-1005	Human Resources	IT Infrastructure	Semi-Annual
+AST-1006	Credit Operations	Document Management	Quarterly
+AST-1007	IT Operations	Backup Administration	Monthly
+AST-1008	Privacy Office	Database Administration	Quarterly
+AST-1009	Information Security	Security Operations	Monthly
+AST-1010	Compliance	Data Management	Quarterly
+5. Asset risk assessment
+Asset ID	Primary Risk	Impact	Required Control
+AST-1001	Customer data disclosure	HIGH	Database access control
+AST-1002	Banking service disruption	CRITICAL	Availability monitoring
+AST-1003	Unauthorized digital access	HIGH	Authentication controls
+AST-1004	Payment data modification	CRITICAL	Transaction integrity
+AST-1005	Employee information disclosure	MEDIUM	Access restriction
+AST-1006	Document loss	MEDIUM	Document backup
+AST-1007	Backup compromise	HIGH	Backup protection
+AST-1008	Consent record alteration	HIGH	Integrity monitoring
+AST-1009	Loss of audit evidence	HIGH	Log retention
+AST-1010	Regulatory reporting inaccuracy	HIGH	Data validation
+
+6. Asset lifecycle management
+Information assets must be managed throughout their lifecycle.
+Acquisition and creation
+
+New information assets must be registered, assigned an owner, and classified according to business sensitivity.
+Usage and maintenance
+Access permissions, security configurations, and ownership details must be maintained.
+Periodic review
+Asset owners must validate asset classification, business purpose, and access requirements.
+Retention and disposal
+Assets must be retained according to applicable legal, regulatory, and organizational requirements.
+Disposal activities must ensure that sensitive information is securely removed or destroyed.
+
+7. Management recommendations
+Maintain a centralized information asset register.
+Assign accountable business owners.
+Classify information based on sensitivity.
+Review access permissions periodically.
+Link assets with vulnerabilities and security incidents.
+Document asset lifecycle changes.
+Validate backup coverage for critical assets.
+Review third-party information asset dependencies.
+Ensure privacy requirements are reflected in asset controls.
+
+8. Ontology relationships
+InformationAsset IS_A InformationSecurityEntity.
+InformationAsset IS_A BFSI_domain_ontology.
+DataAsset IS_A InformationAsset.
+DataAsset IS_A InformationSecurityEntity.
+Customer IS_A FinancialEntity.
+Employee IS_A FinancialEntity.
+Backup IS_A InformationSecurityEntity.
+SecurityIncident IS_A InformationSecurityEntity.
+InformationAsset OWNED_BY Organization.
+InformationAsset PROCESSES DataAsset.
+Vulnerability AFFECTS InformationAsset.
+SecurityIncident AFFECTS InformationAsset.
+Backup PROTECTS InformationAsset.
+PrivacyProcessingActivity PROCESSES InformationAsset.
+ManagementReview REVIEWS InformationAsset.
+
+9. RAG retrieval questions
+Which information assets have restricted classification?
+Who owns the customer information database?
+Which asset supports digital banking operations?
+What security requirements apply to AST-1004?
+Which asset stores customer consent records?
+What is the primary risk associated with AST-1002?
+How frequently is the backup storage infrastructure reviewed?
+How does InformationAsset relate to DataAsset?
+How does Backup relate to InformationAsset?
+Why is asset ownership important for information security?

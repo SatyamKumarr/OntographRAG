@@ -1,0 +1,229 @@
+Document Type: Customer Master Data Register
+Institution: Meridian National Bank (Synthetic)
+Document ID: CMR-2026-001
+Version: 1.0
+Classification: Internal – Synthetic Training Data
+Effective Period: January 2026 – December 2026
+
+1. Purpose and Scope
+
+This document maintains the consolidated customer master records of Meridian National Bank.
+The Customer entity represents an individual or organization that maintains a financial relationship with the institution.
+Customer master data provides the foundation for account opening, KYC verification, transaction monitoring, financial product eligibility, regulatory reporting, customer service, and risk assessment.
+
+Each customer is assigned a unique Customer ID. The identifier is used to connect customer information with accounts, financial products, KYC profiles, compliance assessments, transactions, customer complaints, and AML investigations. Customer master data must remain consistent across all banking systems.
+
+2. Customer Record CUST-1001
+Customer Name: Aarav Mehta
+Customer Type: Individual
+Customer ID: CUST-1001
+Date of Birth: 1988-04-15
+Nationality: Indian
+Residential City: Hyderabad
+Customer Segment: Retail Banking
+Customer Since: 2021-06-12
+Relationship Status: Active
+Risk Classification: Medium
+Primary Branch: BR-001
+Relationship Manager: EMP-301
+
+Customer Profile
+Aarav Mehta is a retail banking customer who maintains a savings account and a personal credit facility with Meridian National Bank. The customer receives monthly salary credits from a registered technology services organization. The customer's banking relationship includes recurring utility payments, salary deposits, domestic fund transfers, and scheduled loan repayments.
+
+Associated Accounts
+ACC-2001: Savings Account
+ACC-2002: Personal Loan Account
+Associated Products
+Retail Savings Account
+Personal Loan
+Debit Card
+Compliance Profile
+
+KYC Reference: KYC-4001
+Compliance Assessment: CMP-5001
+KYC Status: Verified
+Customer Risk Category: Medium
+Last KYC Review: 2026-02-10
+Next Review Date: 2027-02-10
+
+Customer Activity
+The customer demonstrates regular salary deposits and predictable expenditure patterns.The customer has no unresolved customer complaints in the current reporting period. The personal loan repayment history is maintained under the Credit and Lending domain.
+
+3. Customer Record CUST-1002
+
+Customer Name: Priya Sharma
+Customer Type: Individual
+Customer ID: CUST-1002
+Date of Birth: 1992-09-22
+Nationality: Indian
+Residential City: Bengaluru
+Customer Segment: Premium Retail Banking
+Customer Since: 2020-11-05
+Relationship Status: Active
+Risk Classification: Low
+Primary Branch: BR-001
+Relationship Manager: EMP-302
+
+Customer Profile
+Priya Sharma maintains a premium savings relationship and an investment holding account. Her financial activity includes monthly salary credits, investment contributions, recurring payments, and domestic transfers.
+
+Associated Accounts
+ACC-2003: Premium Savings Account
+ACC-2004: Investment Settlement Account
+Associated Products
+Premium Savings Account
+Investment Holding
+Payment Card
+Compliance Profile
+
+KYC Reference: KYC-4002
+Compliance Assessment: CMP-5002
+KYC Status: Verified
+Customer Risk Category: Low
+Last KYC Review: 2026-01-18
+Next Review Date: 2027-01-18
+
+Customer Activity
+The customer has maintained a stable relationship with the bank. Her transaction profile is consistent with declared employment and investment activities. No significant compliance exceptions are recorded in the current reporting period.
+
+4. Customer Record CUST-1003
+
+Customer Name: Vikram Rao
+Customer Type: Individual
+Customer ID: CUST-1003
+Date of Birth: 1985-12-03
+Nationality: Indian
+Residential City: Hyderabad
+Customer Segment: Retail Banking
+Customer Since: 2023-03-17
+Relationship Status: Active – Enhanced Monitoring
+Risk Classification: High
+Primary Branch: BR-002
+Relationship Manager: EMP-303
+
+Customer Profile
+
+Vikram Rao maintains a current account and a digital wallet relationship with Meridian National Bank. The account demonstrates frequent third-party transfers and higher-than-usual transaction activity compared with the customer's original declared profile. A transaction monitoring alert was generated following multiple unusual transfers over a short reporting period.
+
+Associated Accounts
+ACC-2005: Current Account
+ACC-2006: Digital Wallet Account
+Associated Products
+Current Account
+Digital Wallet
+Debit Card
+Compliance Profile
+
+KYC Reference: KYC-4003
+Compliance Assessment: CMP-5003
+KYC Status: Verified – Enhanced Due Diligence Required
+Customer Risk Category: High
+Last KYC Review: 2026-03-05
+Next Review Date: 2026-09-05
+
+Customer Activity
+The transaction monitoring team identified a deviation between the declared customer activity and observed transfer frequency. The account was referred for enhanced due diligence. An AML investigation was opened for further examination.
+The elevated risk classification represents an internal risk assessment and does not establish criminal activity.
+
+5. Customer Record CUST-1004
+
+Customer Name: Ananya Iyer
+Customer Type: Individual
+Customer ID: CUST-1004
+Date of Birth: 1990-07-11
+Nationality: Indian
+Residential City: Chennai
+Customer Segment: Retail Banking
+Customer Since: 2022-08-21
+Relationship Status: Active
+Risk Classification: Low
+Primary Branch: BR-002
+Relationship Manager: EMP-301
+
+Customer Profile
+Ananya Iyer maintains a savings account and a payment card relationship.
+Her primary banking activities include salary credits, household payments, insurance premium payments, and periodic domestic transfers.
+
+Associated Accounts
+ACC-2007: Savings Account
+Associated Products
+Savings Account
+Payment Card
+Insurance Policy
+Compliance Profile
+
+KYC Reference: KYC-4004
+Compliance Assessment: CMP-5004
+KYC Status: Verified
+Customer Risk Category: Low
+Last KYC Review: 2026-02-15
+Next Review Date: 2027-02-15
+
+Customer Activity
+The customer's financial activities are consistent with the declared retail banking profile.
+No active AML investigations or unresolved compliance exceptions are associated with this customer.
+
+6. Customer Record CUST-1005
+
+Customer Name: Northstar Trading Solutions Pvt Ltd
+Customer Type: Corporate
+Customer ID: CUST-1005
+Incorporation Country: India
+Registered City: Hyderabad
+Customer Segment: SME Banking
+Customer Since: 2021-09-30
+Relationship Status: Active – Periodic Review
+Risk Classification: Medium
+Primary Branch: BR-001
+Relationship Manager: EMP-302
+
+Customer Profile
+Northstar Trading Solutions Pvt Ltd is a synthetic small and medium enterprise customer engaged in wholesale distribution.
+The organization maintains a corporate current account and a revolving credit facility.
+The banking relationship supports supplier payments, customer collections, payroll transactions, and working capital requirements.
+
+Associated Accounts
+ACC-2008: Corporate Current Account
+ACC-2009: Business Credit Account
+Associated Products
+Corporate Current Account
+Credit Facility
+Business Payment Card
+Compliance Profile
+
+KYC Reference: KYC-4005
+Compliance Assessment: CMP-5005
+KYC Status: Verified – Periodic Review Pending
+Customer Risk Category: Medium
+Last KYC Review: 2026-01-25
+Next KYC Review: 2026-07-25
+
+Customer Activity
+The organization maintains recurring supplier payments and business collections.
+Periodic review is required to ensure that transaction activity remains consistent with the declared business model.
+
+7. Customer Master Data Governance
+Customer master records are maintained by the Customer Relationship Management function.
+
+The Customer entity is connected to multiple business domains:
+Customer connects to Account through account ownership.
+Customer connects to KYC through identity verification.
+Customer connects to ComplianceAssessment through compliance review.
+Customer connects to FinancialProduct through product enrollment.
+Customer connects to FinancialTransaction through transaction participation.
+Customer connects to AMLCase when suspicious activity requires investigation.
+Customer connects to CustomerComplaint through service-related events.
+Customer connects to Consent through privacy and communication preferences.
+Customer connects to Employee through relationship management.
+Customer connects to Branch through servicing responsibility.
+
+These connections are operational business relationships, not additional customer attributes.
+
+8. Data Quality and Control Requirements
+Every customer must have a unique Customer ID.
+Customer names must be maintained consistently across customer and account systems.
+Each active customer must have an associated KYC profile.
+Customer risk classifications must be supported by documented assessments.
+Changes to customer information must be recorded with timestamps and responsible employees.
+Customer records must not contain unmasked authentication credentials or payment-card security data.
+Customer master records must be reviewed periodically.

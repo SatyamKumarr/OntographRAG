@@ -1,0 +1,51 @@
+1. Purpose
+A RegulatoryObligation represents a requirement that a financial institution must satisfy under an applicable law, regulation, direction, or regulatory framework.
+
+The institution maintains an obligation register linking regulatory requirements to policies, controls, assessments, evidence, and reports.
+
+2. Synthetic obligations
+OBL-1001: Customer Due Diligence
+Domain: KYC
+Reference: Applicable RBI KYC requirements
+Requirement: Maintain appropriate customer identification and due diligence records.
+Responsible Function: Customer Compliance
+Evidence: KYC profiles and verification records
+Status: ACTIVE
+OBL-1002: Suspicious Transaction Reporting
+Domain: AML
+Reference: Applicable PMLA and reporting requirements
+Requirement: Evaluate and report suspicious activity through appropriate processes.
+Responsible Function: AML Operations
+Evidence: AML investigations and SAR records
+Status: ACTIVE
+OBL-1003: Information Security Governance
+Domain: Information Security
+Reference: Applicable RBI security requirements and internal standards
+Requirement: Maintain information security controls and incident management.
+Responsible Function: Information Security
+Evidence: Security assessments and incident reports
+Status: ACTIVE
+OBL-1004: Personal Data Protection
+Domain: Privacy
+Reference: Applicable data protection requirements
+Requirement: Process personal information according to applicable legal obligations and documented purposes.
+Responsible Function: Privacy Office
+Evidence: Consent records and processing activity registers
+Status: ACTIVE
+
+3. Obligation traceability
+
+Each obligation must be traceable to:
+Relevant Policy.
+Applicable Standard.
+StandardRequirement.
+Control.
+ComplianceAssessment.
+EvidenceArtifact.
+RegulatoryReport.
+
+4. RAG questions
+Which obligation covers customer due diligence?
+Which obligation is associated with suspicious transaction reporting?
+What evidence supports OBL-1003?
+How are regulatory obligations linked to controls?

@@ -1,0 +1,122 @@
+Institution: Meridian National Bank (MNB)
+Environment: Synthetic BFSI Test Environment
+Document Type: Payment Processing Operations
+Dataset Version: 1.0
+
+1. Overview
+Payment processing is the operational function responsible for receiving, validating, authorizing, routing, executing, and recording financial payment instructions.
+
+Meridian National Bank supports the following payment channels:
+
+Account-to-account transfers
+NEFT-style domestic transfers
+RTGS-style high-value transfers
+IMPS-style instant payments
+UPI-style digital payments
+Debit card transactions
+Credit card transactions
+Merchant acquiring transactions
+Digital wallet payments
+Internal account transfers
+
+Each payment is represented by a unique Payment entity and may be associated with a PaymentInstruction, PaymentMessage, Authorization, FinancialTransaction, Account, Customer, Beneficiary, Merchant, ClearingRecord, Settlement, and Reconciliation.
+
+2. Payment lifecycle
+
+A standard payment follows these operational stages:
+Payment initiation.
+Customer authentication.
+Payment instruction creation.
+Account and beneficiary validation.
+Authorization assessment.
+Transaction routing.
+Payment execution.
+Clearing, where applicable.
+Settlement.
+Reconciliation.
+Customer notification.
+Transaction archival.
+
+The payment may be rejected, reversed, refunded, disputed, or placed under investigation at different stages.
+
+3. Synthetic payment records
+Payment PAY-2026-0001
+Customer: CUST-1001
+Source Account: ACC-1001
+Beneficiary: BEN-2001
+Payment Channel: Mobile Banking
+Payment Type: Domestic Transfer
+Amount: INR 48,500
+Currency: INR
+Initiated: 2026-10-05 10:15
+Authorization: AUTH-1001
+Status: SETTLED
+Settlement Reference: SET-1001
+
+Operational interpretation:
+
+The customer initiated a domestic transfer through the mobile banking application. The system validated account status and available balance before generating an authorization request. Authorization was successful, and the payment entered the execution process. Settlement was completed successfully.
+
+Payment PAY-2026-0002
+Customer: CUST-1002
+Source Account: ACC-1002
+Beneficiary: BEN-2002
+Payment Channel: Internet Banking
+Amount: INR 275,000
+Currency: INR
+Authorization: AUTH-1002
+Status: UNDER_REVIEW
+Risk Classification: MEDIUM
+
+Operational interpretation:
+
+The payment exceeded the customer's historical average transaction amount. The transaction monitoring system generated an alert for additional verification. The payment was temporarily held pending review.
+
+Payment PAY-2026-0003
+Customer: CUST-1003
+Source Account: ACC-1003
+Merchant: MER-3001
+Amount: INR 12,750
+Payment Channel: Debit Card
+Authorization: AUTH-1003
+Status: DECLINED
+
+Operational interpretation:
+
+The merchant payment was declined following an authorization assessment. The transaction did not proceed to settlement.
+
+Payment PAY-2026-0004
+Customer: CUST-1004
+Source Account: ACC-1004
+Amount: INR 95,000
+Payment Channel: Digital Wallet
+Status: REVERSED
+
+Operational interpretation:
+
+The payment was initially accepted but failed during downstream processing. A reversal was generated to restore the original account balance.
+
+4. Operational controls
+
+Payment processing controls include:
+
+Customer authentication.
+Account status validation.
+Balance verification.
+Beneficiary verification.
+Transaction limit validation.
+Authorization checks.
+Duplicate transaction detection.
+Fraud monitoring.
+Payment status tracking.
+Settlement reconciliation.
+
+RAG retrieval guidance
+Useful retrieval questions:
+Which customer initiated PAY-2026-0001?
+Which account was debited?
+Which authorization belongs to PAY-2026-0002?
+Why was PAY-2026-0002 placed under review?
+Which payment was reversed?
+Which payments successfully reached settlement?
+What is the relationship between Payment and FinancialTransaction?

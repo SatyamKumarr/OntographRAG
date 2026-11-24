@@ -1,0 +1,191 @@
+1. Overview
+Transaction monitoring is a control function used by the bank to identify potentially unusual financial activity.
+The Transaction Monitoring System analyzes transaction information using predefined business rules, customer risk profiles, historical activity, and other relevant contextual data.
+
+Monitoring alerts are generated when observed activity satisfies specified detection conditions.An alert does not automatically establish suspicious behavior or criminal activity. Each alert must be assessed using the customer's circumstances, account history, supporting evidence, and applicable compliance requirements. This document provides synthetic monitoring records for three AML investigations.
+
+2. Monitoring Architecture
+The monitoring environment receives data from multiple operational systems.
+
+Input systems:
+Core banking platform.
+Customer master repository.
+KYC and customer due diligence platform.
+Payment processing system.
+Merchant acquiring platform.
+Beneficiary management system.
+Account transaction ledger.
+Customer risk assessment platform.
+
+Monitoring outputs:
+Transaction monitoring alerts.
+Customer risk indicators.
+Account activity deviations.
+AML case creation requests.
+Investigation assignments.
+Compliance escalation records.
+
+3. Alert 
+Alert ID: ALERT-2026-0918
+Related AML Case: AML-2026-001
+Customer: CUST-1001
+Account: ACC-1001-01
+Alert Category: Unusual Transaction Velocity
+Risk Level: High
+Alert Date: 15 September 2026
+Alert Status: Escalated
+
+Detection Context
+The monitoring system identified an increase in transaction volume and value relative to the customer's historical profile. The account received multiple incoming transfers and subsequently transferred a substantial proportion of those funds to multiple beneficiaries.
+
+Monitoring Observations
+Incoming transaction value: INR 1,250,000.
+Outgoing transaction value: INR 1,150,000.
+Number of incoming transactions: 3.
+Number of outgoing transactions: 3.
+Number of observed beneficiaries: 6.
+Customer historical monthly credit average: INR 120,000.
+Alert Assessment
+
+The activity represented a significant deviation from historical account behavior. The system assigned a high-risk alert and referred the case to Financial Crime Compliance.
+
+Result
+
+AML-2026-001 was created. Enhanced due diligence was initiated.
+
+4. Alert ALERT-2026-0821
+
+Alert ID: ALERT-2026-0821
+Related AML Case: AML-2026-002
+Customer: CUST-1002
+Account: ACC-1002-01
+Alert Category: Dormant Account Reactivation
+Risk Level: High
+Alert Date: 20 August 2026
+Alert Status: Escalated
+
+Detection Context
+
+The monitoring system identified significant transaction activity following approximately 18 months of account inactivity.
+
+Monitoring Observations
+Initial high-value credit: INR 1,800,000.
+Subsequent outward transfers: INR 1,550,000.
+Additional incoming credit: INR 250,000.
+Number of major outgoing transfers: 3.
+Account historical status: Dormant.
+Alert Assessment
+
+The account demonstrated an unusual change in activity. The system referred the alert to the AML investigation team.
+
+Result
+
+AML-2026-002 was created.  Source-of-funds verification and customer due diligence refresh were requested.
+
+5. Alert ALERT-2026-1013
+
+Alert ID: ALERT-2026-1013
+Related AML Case: AML-2026-003
+Merchant: MER-3001
+Settlement Account: ACC-MER-3001
+Alert Category: Merchant Transaction and Refund Anomaly
+Risk Level: High
+Alert Date: 12 October 2026
+Alert Status: Escalated
+
+Detection Context
+
+The merchant monitoring system identified an increase in transaction values and unusual refund and chargeback activity.
+
+Monitoring Observations
+Payment value: INR 830,000.
+Refund value: INR 340,000.
+Chargeback value: INR 210,000.
+Payment records reviewed: 6.
+Refund records reviewed: 2.
+Chargeback records reviewed: 1.
+Alert Assessment
+
+The monitoring system identified discrepancies requiring cross-system review. The merchant was referred to Financial Crime Compliance.
+
+Result
+
+AML-2026-003 was created.
+Payment, clearing, settlement, refund, and chargeback records were selected for detailed reconciliation.
+
+6. Monitoring Control Register
+Control ID	Control Name	Purpose
+MON-001	Transaction Velocity Review	Identifies unusual transaction frequency
+MON-002	Customer Profile Deviation	Identifies activity inconsistent with customer history
+MON-003	Dormant Account Monitoring	Identifies significant activity after inactivity
+MON-004	Beneficiary Relationship Review	Identifies new or unusual counterparty relationships
+MON-005	Merchant Refund Review	Identifies unusual refund patterns
+MON-006	Chargeback Trend Review	Identifies unusual dispute activity
+MON-007	Source of Funds Review	Supports assessment of incoming funds
+MON-008	Account Activity Review	Evaluates changes in transaction behavior
+
+7. Monitoring and Investigation Workflow
+The operational workflow is:
+Stage 1: Data ingestion
+Transaction data is received from the bank's operational systems.
+
+Stage 2: Customer context enrichment
+The monitoring system associates transactions with customer, account, merchant, and beneficiary information.
+
+Stage 3: Monitoring assessment
+The system evaluates the activity against monitoring controls and customer-specific context.
+
+Stage 4: Alert generation
+Potentially unusual activity produces an alert.
+
+Stage 5: Case management
+The alert is reviewed and, where appropriate, converted into an AMLCase.
+
+Stage 6: Investigation
+The assigned investigator reviews transactions, KYC profiles, counterparties, and supporting evidence.
+
+Stage 7: Compliance decision
+Compliance personnel document the case disposition and any reporting obligations.
+
+Stage 8: Ongoing monitoring
+Relevant accounts or relationships may be subject to additional review according to institutional policy.
+
+8. Cross-Domain Relationships
+Transaction monitoring depends on information from several ontology domains. Customer and Account Management. Provides customer identities, account ownership, account opening details, and historical activity. AML and Financial Crime.  Provides AML cases, investigation outcomes, suspicious activity assessments, and reporting records.
+Payment: Processing Provides transaction, authorization, payment message, clearing, settlement, and refund information.
+Compliance and Governance: Provides regulatory obligations, compliance assessments, policies, and controls.
+
+Risk Management
+Provides risk assessments, risk classifications, and mitigation actions.
+
+Information Security
+Provides relevant access logs, security incidents, and system evidence where required.
+
+9. OntoGraphRAG Entity Mapping
+Entities:
+AMLCase: AML-2026-001, AML-2026-002, AML-2026-003
+Customer: CUST-1001, CUST-1002
+Account: ACC-1001-01, ACC-1002-01, ACC-MER-3001
+Merchant: MER-3001
+FinancialTransaction: AML-related transaction records
+Risk: RISK-AML-001, RISK-AML-002, RISK-AML-003
+RiskAssessment: RASS-AML-001, RASS-AML-002, RASS-AML-003
+Control: MON-001 through MON-008
+Employee: EMP-AML-014, EMP-AML-018, EMP-AML-025
+EvidenceArtifact: AML evidence records
+ComplianceAssessment: COMP-ASSESS-001 through COMP-ASSESS-003
+
+Operational relationships:
+MonitoringAlert GENERATED_BY MonitoringSystem.
+MonitoringAlert TRIGGERED_BY Control.
+MonitoringAlert REFERENCES FinancialTransaction.
+MonitoringAlert REFERENCES Customer.
+MonitoringAlert REFERENCES Account.
+MonitoringAlert ESCALATED_TO AMLCase.
+AMLCase ASSIGNED_TO Employee.
+AMLCase HAS_RISK Risk.
+AMLCase HAS_EVIDENCE EvidenceArtifact.
+AMLCase SUBJECT_TO ComplianceAssessment.
+RiskAssessment EVALUATES Customer.
+RiskAssessment EVALUATES Account.
+ComplianceAssessment REVIEWS MonitoringAlert.

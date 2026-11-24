@@ -1,0 +1,131 @@
+CUSTOMER CONSENT MANAGEMENT AND RECORDS REPORT
+Reporting Period: October 2026
+
+1. Purpose
+This report documents customer consent records maintained by the organization for personal information processing, marketing communications, digital banking notifications, customer analytics, and other applicable business activities. It provides information about consent collection, purpose, status, validity, withdrawal requests, and evidence of customer authorization.
+
+The report supports privacy compliance, customer preference management, data protection, and regulatory accountability.
+
+2. Customer consent register
+Consent ID	Customer ID	Consent Purpose	Collection Channel	Status
+CNS-1001	CUST-1001	Marketing communications	Mobile Banking	ACTIVE
+CNS-1002	CUST-1002	Transaction notifications	Internet Banking	ACTIVE
+CNS-1003	CUST-1003	Personalized financial offers	Branch	WITHDRAWN
+CNS-1004	CUST-1004	Electronic statement delivery	Mobile Banking	ACTIVE
+CNS-1005	CUST-1005	Customer analytics	Internet Banking	PENDING_REVIEW
+CNS-1006	CUST-1006	Promotional email communications	Email	WITHDRAWN
+CNS-1007	CUST-1007	Service-related notifications	Mobile Banking	ACTIVE
+CNS-1008	CUST-1008	Third-party service communication	Branch	PENDING_REVIEW
+CNS-1009	CUST-1009	Digital banking notifications	Internet Banking	ACTIVE
+CNS-1010	CUST-1010	Customer satisfaction surveys	Telephone	ACTIVE
+
+3. Detailed consent observations
+3.1 Marketing communication consent
+Consent CNS-1001 authorizes the applicable marketing communication activity recorded for the customer.
+The organization must ensure that the consent record is linked to the relevant communication systems.
+The customer preference must be respected during marketing campaign execution.
+
+Required controls:
+Maintain the consent collection date.
+Record the consent purpose.
+Maintain evidence of authorization.
+Provide an appropriate withdrawal mechanism.
+Synchronize customer preferences.
+
+Status: ACTIVE.
+
+3.2 Transaction notification consent
+Consent CNS-1002 relates to transaction notification services.The record supports communication preferences for account-related notifications. The organization should distinguish service-related communications from optional promotional communications.
+
+Status: ACTIVE.
+
+3.3 Withdrawn personalized offer consent
+
+Consent CNS-1003 was withdrawn by the customer. The withdrawal requires appropriate processing across systems that rely on the consent record. The organization should verify that the withdrawn status has been reflected in applicable communication and personalization platforms.
+
+Status: WITHDRAWN.
+
+3.4 Electronic statement delivery
+Consent CNS-1004 relates to electronic delivery of customer statements. The organization should maintain evidence of the customer's communication preference and ensure that statements are delivered through authorized channels.
+
+Status: ACTIVE.
+
+3.5 Customer analytics consent review
+Consent CNS-1005 requires additional review to verify that the recorded authorization and associated processing purpose are appropriately documented. The privacy office must validate the applicable processing basis and consent evidence.
+
+Status: PENDING_REVIEW.
+
+3.6 Withdrawn promotional email consent
+Consent CNS-1006 records withdrawal of promotional email communication authorization. The marketing communication system must reflect the withdrawal. Evidence of the preference update should be retained for compliance review.
+
+Status: WITHDRAWN.
+
+4. Consent status summary
+Consent Status	Number of Records	Required Monitoring
+ACTIVE	6	Periodic validation
+WITHDRAWN	2	Withdrawal synchronization
+PENDING_REVIEW	2	Privacy validation
+EXPIRED	0	Expiry monitoring
+
+5. Consent governance controls
+Consent collection
+Consent must be recorded with an identifiable customer reference, purpose, collection channel, and timestamp.
+
+Consent evidence
+The organization must maintain evidence demonstrating how and when the customer preference was recorded.
+
+Consent withdrawal
+Withdrawal requests must be registered and communicated to relevant processing systems.
+
+Purpose limitation
+Consent must not be interpreted as authorization for unrelated processing activities.
+
+Periodic review
+Consent records must be reviewed to identify outdated, incomplete, withdrawn, or inconsistent records.
+
+6. Consent corrective action register
+Action ID	Consent ID	Corrective Action	Responsible Team	Status
+CNS-CA-1001	CNS-1003	Validate withdrawal synchronization	Privacy Office	IN_PROGRESS
+CNS-CA-1002	CNS-1005	Validate analytics processing basis	Data Governance	OPEN
+CNS-CA-1003	CNS-1006	Verify promotional suppression	Marketing Operations	IN_PROGRESS
+CNS-CA-1004	CNS-1008	Validate third-party consent requirements	Compliance	OPEN
+
+7. Management recommendations
+Maintain a centralized consent register.
+Record consent purpose and collection channel.
+Preserve consent evidence.
+Process withdrawal requests promptly.
+Synchronize consent status across systems.
+Separate service notifications from promotional communications.
+Review third-party consent requirements.
+Monitor consent records requiring additional review.
+Integrate consent management with privacy processing activities.
+Conduct periodic consent governance assessments.
+
+8. Ontology relationships
+Consent IS_A ComplianceEntity.
+Consent IS_A BFSI_domain_ontology.
+Customer IS_A FinancialEntity.
+PrivacyProcessingActivity IS_A ComplianceEntity.
+InformationAsset IS_A InformationSecurityEntity.
+Policy IS_A GovernanceEntity.
+ComplianceAssessment IS_A ComplianceEntity.
+Consent PROVIDED_BY Customer.
+Consent AUTHORIZES PrivacyProcessingActivity.
+PrivacyProcessingActivity PROCESSES InformationAsset.
+Policy GOVERNS Consent.
+ComplianceAssessment ASSESSES Consent.
+CorrectiveAction IMPLEMENTS ConsentRemediation.
+ManagementReview REVIEWS Consent.
+
+9. RAG retrieval questions
+How many consent records are active?
+Which consent records have been withdrawn?
+Which customer consent is associated with analytics?
+What is the status of CNS-1003?
+What corrective action is required for CNS-1006?
+Why must withdrawn consent be synchronized across systems?
+What information should be maintained in a consent record?
+How does Consent relate to Customer?
+How does Consent relate to PrivacyProcessingActivity?
+What is the difference between active and withdrawn consent?

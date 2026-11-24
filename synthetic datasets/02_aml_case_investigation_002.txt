@@ -1,0 +1,159 @@
+Case ID: AML-2026-002
+Case Name: Dormant Account Reactivation and Unusual High-Value Transfers
+
+1. Case Overview
+Case Reference: AML-2026-002
+Case Name: Dormant Account Reactivation and Unusual High-Value Transfers
+Investigation Category: Dormant Account Activity
+Risk Classification: High
+Case Status: Under Investigation
+Reporting Institution: Meridian National Bank (Synthetic)
+Investigation Period: 05 August 2026 – 20 August 2026
+Customer ID: CUST-1002
+Customer Name: Kavita Rao
+Account ID: ACC-1002-01
+Assigned Investigator: EMP-AML-018
+Monitoring Alert: ALERT-2026-0821
+
+2. Background
+The Transaction Monitoring System identified unusual activity in an account that had remained substantially inactive for approximately 18 months. Before the alert, the account showed limited activity, primarily consisting of occasional small deposits and periodic maintenance charges.
+
+On 05 August 2026, the account received a high-value credit followed by multiple transfers to external beneficiaries. The change in account behavior triggered an automated dormant-account monitoring alert.
+
+3. Customer Profile
+Customer ID: CUST-1002
+Customer Name: Kavita Rao
+Customer Type: Individual
+Occupation: Retired School Administrator
+Declared Annual Income: INR 720,000
+KYC Status: Verified
+Customer Risk Rating: Low before alert
+Customer Since: 17 November 2019
+Primary Branch: BR-HYD-002
+
+The customer's declared financial profile indicated retirement income and modest investment returns. The sudden increase in transaction activity required additional verification.
+
+4. Account Information
+Account ID: ACC-1002-01
+Account Type: Savings
+Currency: INR
+Account Status: Active during initial alert
+Dormancy Period: Approximately 18 months
+Linked Customer: CUST-1002
+Branch: BR-HYD-002
+The account had no significant transaction activity during the dormant period.
+
+5. Relevant Transactions
+Transaction ID	Date	Type	Amount (INR)	Description
+TXN-AML-021	05 Aug 2026	Credit	1,800,000	External transfer
+TXN-AML-022	06 Aug 2026	Debit	650,000	Beneficiary transfer
+TXN-AML-023	07 Aug 2026	Debit	500,000	Beneficiary transfer
+TXN-AML-024	09 Aug 2026	Debit	400,000	Beneficiary transfer
+TXN-AML-025	12 Aug 2026	Credit	250,000	External transfer
+
+Total credits: INR 2,050,000.
+Total debits: INR 1,550,000.
+The account showed a material change in transaction frequency and value.
+
+6. Risk Indicators
+The investigation identified the following indicators:
+Reactivation following an extended period of inactivity.
+High-value credit immediately after reactivation.
+Multiple outward transfers.
+Beneficiaries not previously observed in the account history.
+Transaction volume inconsistent with the customer's previously documented activity.
+Insufficient initial explanation of the economic purpose.
+
+The indicators justified enhanced due diligence but did not establish criminal activity.
+
+7. Investigation Activities
+The investigator initiated:
+Review of historical account activity.
+Verification of the source of the INR 1,800,000 credit.
+Review of beneficiary identities.
+Confirmation of customer contact details.
+Review of recent KYC information.
+Assessment of whether account access changes occurred before reactivation.
+
+The team also requested supporting documentation for the significant credit.
+
+8. Evidence Register
+Evidence ID	Description	Related Entity
+EVD-AML-021	Historical Account Statement	ACC-1002-01
+EVD-AML-022	Dormancy Monitoring Alert	ALERT-2026-0821
+EVD-AML-023	Customer KYC Record	CUST-1002
+EVD-AML-024	Beneficiary Transfer Summary	TXN-AML-022 to TXN-AML-024
+EVD-AML-025	Customer Verification Record	CUST-1002
+9. Investigation Findings
+
+The account exhibited unusual reactivation behavior.
+
+The monitoring system correctly identified a material deviation from historical activity.
+
+At the time of the report, the source of the significant credit and the economic purpose of the subsequent transfers remained subject to verification.
+
+The case was escalated to enhanced review.
+
+10. Corrective Actions
+CA-AML-021: Complete source-of-funds verification.
+CA-AML-022: Refresh customer due diligence information.
+CA-AML-023: Review all new beneficiary relationships.
+CA-AML-024: Examine account access and authentication history.
+CA-AML-025: Complete documented case disposition.
+11. Regulatory Assessment
+
+The compliance team must assess the available evidence against applicable AML reporting requirements.
+
+Any suspicious activity reporting decision must be made by authorized compliance personnel in accordance with the applicable jurisdiction's rules.
+
+The automated alert itself is not equivalent to a regulatory filing.
+
+12. Case Status
+
+Case Status: Open
+Risk Rating: High
+Customer Risk Rating: Under Review
+SAR Decision: Pending
+Next Review: 30 August 2026
+
+13. OntoGraphRAG Entity Mapping
+
+Entities:
+
+AMLCase: AML-2026-002
+Customer: CUST-1002
+Account: ACC-1002-01
+Branch: BR-HYD-002
+Employee: EMP-AML-018
+FinancialTransaction: TXN-AML-021 through TXN-AML-025
+Beneficiary: BEN-2021 through BEN-2023
+Risk: RISK-AML-002
+RiskAssessment: RASS-AML-002
+EvidenceArtifact: EVD-AML-021 through EVD-AML-025
+ComplianceAssessment: COMP-ASSESS-002
+CorrectiveAction: CA-AML-021 through CA-AML-025
+
+Operational relationships:
+
+Customer OWNS Account.
+Account HAS_STATUS DormantBeforeReactivation.
+Account PROCESSES FinancialTransaction.
+AMLCase INVESTIGATES Account.
+AMLCase INVESTIGATES Customer.
+AMLCase TRIGGERED_BY MonitoringAlert.
+AMLCase HAS_EVIDENCE EvidenceArtifact.
+AMLCase ASSIGNED_TO Employee.
+AMLCase HAS_RISK_ASSESSMENT RiskAssessment.
+AMLCase REQUIRES CorrectiveAction.
+ComplianceAssessment EVALUATES AMLCase.
+FinancialTransaction HAS_BENEFICIARY Beneficiary.
+
+14. Retrieval-Oriented Knowledge Summary
+
+AML-2026-002 concerns unusual financial activity in a previously dormant account belonging to CUST-1002.
+
+The account received INR 1,800,000 after approximately 18 months of inactivity, followed by three significant outgoing transfers.
+
+The activity was inconsistent with historical account behavior and resulted in a high-risk AML investigation.
+
+The principal investigation requirements were source-of-funds verification, beneficiary identification, customer due diligence refresh, and regulatory reporting assessment.

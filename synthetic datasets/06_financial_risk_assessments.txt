@@ -1,0 +1,54 @@
+1. Financial risk overview
+Financial risk represents the possibility of financial loss due to changes in market conditions, borrower behavior, liquidity availability, or counterparty performance.
+
+The institution evaluates:
+
+Credit risk.
+Liquidity risk.
+Market risk.
+Interest rate risk.
+Concentration risk.
+Counterparty risk.
+2. Synthetic financial risk assessment FR-1001
+Assessment ID: FR-1001
+Risk ID: RISK-2001
+Category: Credit Risk
+Related Customer: CUST-1003
+Related Loan: LOAN-1003
+Inherent Risk Score: 15
+Classification: HIGH
+Assessment observations
+
+The borrower has an overdue repayment installment and incomplete collateral verification.
+
+The assessment recommends additional repayment monitoring and collateral documentation review.
+
+3. Synthetic financial risk assessment FR-1002
+Assessment ID: FR-1002
+Risk ID: RISK-2002
+Category: Liquidity Risk
+Business Area: Treasury Operations
+Inherent Risk Score: 8
+Classification: MEDIUM
+Assessment observations
+
+The synthetic assessment identifies a potential mismatch between expected short-term cash outflows and available liquid resources.
+
+Recommended actions include monitoring liquidity indicators and reviewing contingency funding arrangements.
+
+4. Synthetic financial risk assessment FR-1003
+Assessment ID: FR-1003
+Risk ID: RISK-2003
+Category: Counterparty Risk
+Related Third Party: TP-1001
+Inherent Risk Score: 12
+Classification: HIGH
+Assessment observations
+
+A service provider has a critical dependency within payment processing operations.The bank recommends enhanced due diligence and continuity testing.
+
+5. RAG questions
+Which loan is associated with FR-1001?
+Why is RISK-2001 classified as high?
+Which assessment covers liquidity risk?
+Which third party is associated with FR-1003?

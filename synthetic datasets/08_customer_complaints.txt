@@ -1,0 +1,130 @@
+CUSTOMER COMPLAINT MANAGEMENT REPORT
+Reporting Period: October 2026
+
+1. Purpose
+This report provides a consolidated overview of customer complaints received through banking branches, digital banking channels, telephone support, email, and other customer service channels. It documents complaint categories, customer concerns, associated financial products, complaint severity, investigation findings, resolution ownership, and escalation status.
+
+The report supports customer service quality monitoring, regulatory compliance, operational risk management, and continuous improvement.
+
+2. Customer complaint summary
+Complaint ID	Customer ID	Complaint Category	Related Product	Priority	Status
+CMP-1001	CUST-1001	Unauthorized transaction concern	Digital Wallet	HIGH	INVESTIGATING
+CMP-1002	CUST-1002	Delayed refund	Payment Card	MEDIUM	IN_PROGRESS
+CMP-1003	CUST-1003	Incorrect loan installment debit	Loan	HIGH	OPEN
+CMP-1004	CUST-1004	Account access difficulty	Savings Account	MEDIUM	RESOLVED
+CMP-1005	CUST-1005	Delayed payment processing	Payment Service	HIGH	IN_PROGRESS
+CMP-1006	CUST-1006	Incorrect account charges	Savings Account	MEDIUM	OPEN
+CMP-1007	CUST-1007	Customer service communication delay	Credit Facility	LOW	RESOLVED
+CMP-1008	CUST-1008	Personal information correction request	Customer Information	MEDIUM	IN_PROGRESS
+
+3. Detailed complaint observations
+3.1 Unauthorized transaction concern
+Complaint CMP-1001 was registered after a customer reported a transaction that was not recognized. The customer service team referred the matter to the payment investigation function for verification.  The investigation requires review of transaction records, authentication history, and applicable customer authorization evidence.
+
+Actions initiated:
+Complaint registered.
+Customer acknowledgment issued.
+Transaction records requested.
+Payment investigation initiated.
+Case escalated to the relevant operational team.
+Current status: INVESTIGATING.
+
+The complaint must not be considered a confirmed fraud incident until the investigation establishes the relevant facts.
+
+3.2 Delayed refund
+Complaint CMP-1002 relates to a refund that had not been reflected in the customer's account within the expected service period. The customer service team initiated a review of the payment and refund processing records. The payment operations team is responsible for confirming the transaction status.
+Current status: IN_PROGRESS.
+
+3.3 Incorrect loan installment debit
+Complaint CMP-1003 concerns a customer dispute regarding an installment debit associated with a loan account.
+The complaint was escalated to credit operations for review of the repayment schedule and transaction records.
+The investigation must determine whether the debit was consistent with the approved loan repayment arrangement.
+Current status: OPEN.
+
+3.4 Account access difficulty
+Complaint CMP-1004 relates to difficulty accessing a savings account through the digital banking channel.The customer support team reviewed the access issue and coordinated with digital banking support. The customer was informed after the issue was addressed.
+
+Current status: RESOLVED.
+
+3.5 Delayed payment processing
+Complaint CMP-1005 concerns a payment that was not reflected within the expected processing period. Payment operations is reviewing the transaction processing status and settlement records. Current status: IN_PROGRESS.
+
+3.6 Incorrect account charges
+Complaint CMP-1006 involves a customer concern regarding charges applied to a savings account. The branch operations team must verify the applicable account tariff, transaction history, and charge authorization.
+Current status: OPEN.
+
+4. Complaint category analysis
+Complaint Category	Number of Cases	Main Concern
+Transaction disputes	1	Unrecognized transaction
+Refund delays	1	Refund processing
+Loan servicing	1	Installment debit
+Account access	1	Digital access
+Payment processing	1	Delayed payment
+Account charges	1	Incorrect charges
+Communication	1	Delayed response
+Personal information	1	Data correction
+
+5. Complaint escalation and ownership
+Complaint ID	Responsible Function	Escalation Level	Required Action
+CMP-1001	Payment Investigation	HIGH	Verify disputed transaction
+CMP-1002	Payment Operations	MEDIUM	Validate refund status
+CMP-1003	Credit Operations	HIGH	Review installment debit
+CMP-1004	Digital Banking Support	NORMAL	Maintain resolution evidence
+CMP-1005	Payment Operations	HIGH	Investigate payment delay
+CMP-1006	Branch Operations	MEDIUM	Validate account charges
+CMP-1007	Customer Service	NORMAL	Review communication process
+CMP-1008	Data Governance	MEDIUM	Process information correction
+
+6. Complaint resolution performance
+Complaint resolution should be evaluated using documented service-level targets, actual resolution time, customer communication, and evidence of corrective action.
+
+The organization should distinguish between:
+Complaints received.
+Complaints acknowledged.
+Complaints under investigation.
+Complaints resolved.
+Complaints reopened.
+Complaints escalated to management.
+
+Resolution should be recorded only after the underlying customer concern has been addressed and appropriate evidence is available.
+
+7. Management recommendations
+Prioritize high-severity customer complaints.
+Monitor unresolved complaint aging.
+Establish clear complaint ownership.
+Maintain communication with affected customers.
+Review recurring complaint categories.
+Link complaints with operational incidents.
+Validate refunds and disputed transactions.
+Monitor complaint resolution service levels.
+Conduct root cause analysis for recurring issues.
+Escalate material complaints to management.
+
+8. Ontology relationships
+CustomerComplaint IS_A ComplianceEntity.
+CustomerComplaint IS_A BFSI_domain_ontology.
+Customer IS_A FinancialEntity.
+FinancialProduct IS_A BFSI_domain_ontology.
+Account IS_A FinancialProduct.
+Loan IS_A CreditFacility.
+Payment IS_A FinancialTransaction.
+Refund IS_A FinancialTransaction.
+CustomerComplaint REPORTED_BY Customer.
+CustomerComplaint RELATES_TO FinancialProduct.
+CustomerComplaint CONCERNS FinancialTransaction.
+CustomerComplaint RESOLVED_BY CorrectiveAction.
+CustomerComplaint ESCALATED_TO Organization.
+ManagementReview REVIEWS CustomerComplaint.
+EvidenceArtifact SUPPORTS CustomerComplaint.
+
+9. RAG retrieval questions
+Which complaints are classified as high priority?
+Which customer reported an unauthorized transaction concern?
+What complaint relates to a delayed refund?
+Which complaint concerns a loan installment debit?
+Which complaints remain open?
+Which department is responsible for CMP-1005?
+What information is required to investigate a disputed transaction?
+How does CustomerComplaint relate to Customer?
+How does CustomerComplaint connect with FinancialProduct?
+How does complaint management support operational risk management?

@@ -1,0 +1,202 @@
+Case ID: AML-2026-001
+Case Name: Rapid Fund Movement Through Multiple Beneficiaries
+
+1. Case Overview
+Case Reference: AML-2026-001
+Case Name: Rapid Fund Movement Through Multiple Beneficiaries
+Investigation Category: Suspicious Transaction Activity
+Risk Classification: High
+Case Status: Under Investigation
+Investigation Department: Financial Crime Compliance
+Reporting Institution: Meridian National Bank (Synthetic)
+Investigation Period: 01 September 2026 – 15 September 2026
+Case Creation Date: 16 September 2026
+Primary Customer: CUST-1001 – Aarav Mehta (Synthetic)
+Primary Account: ACC-1001-01
+Assigned Investigator: EMP-AML-014
+Related Monitoring Alert: ALERT-2026-0918
+
+2. Background
+
+The Financial Crime Monitoring System generated an alert after identifying unusual transaction activity associated with customer CUST-1001.
+
+The customer maintained a personal savings account that historically demonstrated relatively stable transaction behavior. Typical account activity consisted of salary credits, utility payments, household expenses, and occasional domestic transfers.
+
+During the monitoring period, the account received several incoming transfers from unrelated counterparties. A significant proportion of the received funds was transferred to multiple beneficiaries within a short period.
+
+The transaction pattern differed materially from the customer's historical financial behavior.
+
+The monitoring system identified three primary indicators:
+
+Multiple incoming transfers from unrelated accounts.
+Rapid onward movement of funds shortly after receipt.
+Transaction values inconsistent with the customer's declared financial profile.
+
+The alert was escalated to the Financial Crime Compliance Department for investigation.
+
+3. Customer Profile
+
+Customer ID: CUST-1001
+Customer Name: Aarav Mehta
+Customer Type: Individual
+Occupation: Independent Business Consultant
+Declared Annual Income: INR 1,800,000
+Customer Risk Rating: Medium before alert generation
+KYC Status: Verified
+Customer Since: 12 March 2022
+Primary Branch: BR-DEL-001
+Associated Organization: ORG-1001 – Mehta Business Advisory
+
+The customer declared consultancy income as the primary source of funds.
+
+The account was originally opened for personal banking purposes. However, the observed transaction activity included multiple high-value transfers that appeared potentially connected to commercial activities.
+
+The investigation team therefore initiated a source-of-funds review.
+
+4. Account Information
+
+Account ID: ACC-1001-01
+Account Type: Savings
+Currency: INR
+Account Status: Active
+Account Opening Date: 12 March 2022
+Linked Customer: CUST-1001
+Branch: BR-DEL-001
+
+The account had no previously recorded major AML investigation.
+
+Historical transaction analysis indicated an average monthly credit volume of approximately INR 120,000.
+
+During the investigation period, total credits increased significantly.
+
+5. Transaction Activity
+
+The following transactions were identified as relevant to the investigation.
+
+Transaction ID	Date	Direction	Amount (INR)	Counterparty
+TXN-AML-001	02 Sep 2026	Credit	480,000	BEN-2001
+TXN-AML-002	03 Sep 2026	Credit	350,000	BEN-2002
+TXN-AML-003	04 Sep 2026	Credit	420,000	BEN-2003
+TXN-AML-004	04 Sep 2026	Debit	400,000	BEN-2004
+TXN-AML-005	05 Sep 2026	Debit	300,000	BEN-2005
+TXN-AML-006	06 Sep 2026	Debit	450,000	BEN-2006
+
+Total incoming funds identified: INR 1,250,000.
+
+Total outgoing funds identified: INR 1,150,000.
+
+The transaction sequence demonstrated rapid fund movement involving multiple beneficiaries.
+
+6. Beneficiary Analysis
+
+The investigation identified six beneficiary entities.
+
+BEN-2001: Domestic individual account holder.
+BEN-2002: Small business operating account.
+BEN-2003: Newly observed counterparty.
+BEN-2004: Commercial payment recipient.
+BEN-2005: Individual beneficiary.
+BEN-2006: Newly established business entity.
+
+The beneficiaries were not previously recorded as established business partners of the customer.
+
+The compliance team requested additional information regarding the commercial purpose of these transfers.
+
+7. AML Indicators
+
+The following indicators contributed to the elevated risk classification:
+
+Unusual increase in incoming transaction volume.
+Multiple unrelated originators.
+Short intervals between incoming and outgoing transfers.
+New beneficiary relationships.
+Transaction behavior inconsistent with declared income.
+Insufficient supporting commercial documentation at the initial review stage.
+
+These indicators are investigative signals and do not independently establish money laundering.
+
+8. Evidence Collected
+
+The investigation team collected the following evidence:
+
+Evidence ID	Evidence Type	Description
+EVD-AML-001	Transaction Statement	Account transaction history
+EVD-AML-002	KYC Record	Customer identification and occupation
+EVD-AML-003	Monitoring Alert	Automated transaction monitoring alert
+EVD-AML-004	Customer Communication	Request for transaction clarification
+EVD-AML-005	Beneficiary Summary	Related counterparty information
+9. Investigation Findings
+
+The initial investigation established that the account experienced unusual transaction activity during the review period.
+
+The customer had not provided sufficient supporting documentation to explain all incoming and outgoing transactions at the time of initial assessment.
+
+The compliance team determined that enhanced due diligence was appropriate.
+
+The investigation remained open pending:
+
+Source-of-funds clarification.
+Verification of beneficiary relationships.
+Review of supporting invoices and agreements.
+Assessment of whether the observed activity requires regulatory reporting.
+10. Corrective and Preventive Actions
+
+Action CA-AML-001: Perform enhanced due diligence.
+
+Action CA-AML-002: Review customer transaction history over the preceding six months.
+
+Action CA-AML-003: Obtain supporting documents for significant incoming transfers.
+
+Action CA-AML-004: Review beneficiary relationships.
+
+Action CA-AML-005: Maintain enhanced monitoring until the investigation is resolved.
+
+11. Final Case Status
+
+Investigation Status: Open
+Risk Rating: High
+SAR Decision: Pending assessment
+Account Decision: No automatic account restriction based solely on the monitoring alert
+Next Review Date: 25 September 2026
+
+12. OntoGraphRAG Entity and Relationship Mapping
+
+Entities:
+
+AMLCase: AML-2026-001
+Customer: CUST-1001
+Account: ACC-1001-01
+Branch: BR-DEL-001
+Employee: EMP-AML-014
+Beneficiary: BEN-2001 through BEN-2006
+FinancialTransaction: TXN-AML-001 through TXN-AML-006
+Risk: RISK-AML-001
+RiskAssessment: RASS-AML-001
+EvidenceArtifact: EVD-AML-001 through EVD-AML-005
+CorrectiveAction: CA-AML-001 through CA-AML-005
+ComplianceAssessment: COMP-ASSESS-001
+SuspiciousActivityReport: SAR-2026-001
+
+Operational relationships:
+
+Customer OWNS Account.
+Account PROCESSES FinancialTransaction.
+FinancialTransaction HAS_BENEFICIARY Beneficiary.
+AMLCase INVESTIGATES Customer.
+AMLCase INVESTIGATES Account.
+AMLCase CONTAINS FinancialTransaction.
+AMLCase HAS_EVIDENCE EvidenceArtifact.
+AMLCase IDENTIFIES Risk.
+Risk HAS_ASSESSMENT RiskAssessment.
+AMLCase ASSIGNED_TO Employee.
+AMLCase REQUIRES CorrectiveAction.
+AMLCase SUBJECT_TO ComplianceAssessment.
+AMLCase MAY_REQUIRE SuspiciousActivityReport.
+
+13. Retrieval-Oriented Knowledge Summary
+AML-2026-001 concerns unusual incoming and outgoing transfers associated with customer CUST-1001.
+The customer received INR 1,250,000 and transferred INR 1,150,000 to multiple beneficiaries during the investigation period.The account activity differed from the customer's historical financial profile.
+
+The case was classified as high risk and remained open pending source-of-funds verification, beneficiary analysis, and regulatory reporting assessment.
+
+The primary entities connecting this case to the broader BFSI graph are Customer, Account, FinancialTransaction, Beneficiary, Risk, EvidenceArtifact, ComplianceAssessment, Employee, and SuspiciousActivityReport.

@@ -1,0 +1,63 @@
+Institution: Meridian National Bank
+Reporting Period: Q3 2026
+Document Type: Regulatory Compliance Report
+
+1. Regulatory compliance overview
+Regulatory compliance ensures that banking activities operate according to applicable laws, regulations, regulatory directions, and internal policies.
+
+The bank maintains compliance coverage across:
+Customer due diligence.
+Anti-money laundering.
+Suspicious transaction monitoring.
+Payment processing.
+Data privacy.
+Information security.
+Credit operations.
+Consumer protection.
+Regulatory reporting.
+Outsourcing governance.
+
+2. Regulatory framework references
+The synthetic dataset uses the following regulatory and standards references as illustrative business context:
+Reserve Bank of India regulatory directions.
+Prevention of Money Laundering Act.
+RBI KYC Master Direction.
+Digital Personal Data Protection Act.
+Information Technology Act.
+ISO 27001.
+ISO 22301.
+PCI DSS.
+
+The actual applicability and current requirements must be confirmed against official regulatory publications before production use.
+
+3. Synthetic compliance report CMP-1001
+Reporting Entity: Meridian National Bank
+Reporting Period: Q3 2026
+Scope: KYC and AML
+Overall Status: PARTIALLY_COMPLIANT
+Identified Exceptions: 3
+High Priority Exceptions: 1
+Corrective Actions: 3
+Review Owner: Compliance Department
+Findings
+
+The review identified incomplete periodic KYC refresh for a subset of customers, delayed closure of selected monitoring alerts, and insufficient evidence of independent review for selected high-risk cases.
+
+Corrective actions
+Complete overdue KYC refresh.
+Review outstanding AML alerts.
+Strengthen evidence retention.
+Introduce monthly management reporting.
+
+4. Regulatory reporting relationships
+RegulatoryReport REPRESENTS ComplianceAssessment.
+RegulatoryReport PREPARED_BY ComplianceEntity.
+ComplianceAssessment IDENTIFIES ComplianceException.
+CorrectiveAction RESOLVES ComplianceException.
+EvidenceArtifact SUPPORTS ComplianceAssessment.
+
+5. RAG retrieval questions
+What was the overall compliance status of CMP-1001?
+How many exceptions were identified?
+Which compliance areas were reviewed?
+What corrective actions were recommended?

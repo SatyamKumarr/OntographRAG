@@ -1,0 +1,338 @@
+Domain: Customer Relationship Management
+Document ID: CRH-2026-001
+Institution: Meridian National Bank (Synthetic)
+Version: 1.0
+Classification: Internal – Synthetic Training Data
+Reporting Period: 2020–2026
+
+1. Purpose
+
+This document captures the historical relationship between customers and Meridian National Bank.
+
+It describes customer onboarding, product enrollment, account maintenance, customer interactions, service events, compliance reviews, and relationship changes.
+
+Customer relationship history provides temporal context for understanding the evolution of a customer's banking relationship.
+
+The document is particularly important for OntoGraphRAG because customer relationships span multiple ontology classes and business domains.
+
+2. Relationship History: CUST-1001 – Aarav Mehta
+2021-06-12: Customer Onboarding
+
+Aarav Mehta registered as an individual retail banking customer at BR-001.
+
+Customer ID CUST-1001 was created.
+
+KYC profile KYC-4001 was initiated.
+
+Following successful identity verification, the customer was approved for a savings account.
+
+2021-06-12: Savings Account Activation
+
+Account ACC-2001 was created and activated.
+
+The account was designated as the customer's primary salary and expenditure account.
+
+2023-04-20: Personal Loan Enrollment
+
+The customer applied for a personal loan.
+
+Credit assessment was completed by the Credit and Lending Department.
+
+Loan LOAN-8001 was approved.
+
+Account ACC-2002 was created to support loan servicing and repayment.
+
+2025-10-15: Routine Customer Review
+
+The customer profile and account activity were reviewed.
+
+Observed activity remained consistent with the declared banking relationship.
+
+2026-02-10: KYC Review
+
+KYC profile KYC-4001 was reviewed.
+
+Verification status remained complete.
+
+Customer risk classification remained Medium.
+
+Current Relationship Status
+
+Customer relationship: Active.
+
+Products maintained: Savings Account and Personal Loan.
+
+No unresolved customer service or compliance exception is recorded.
+
+3. Relationship History: CUST-1002 – Priya Sharma
+2020-11-05: Customer Onboarding
+
+Priya Sharma registered for premium retail banking services at BR-001.
+
+Customer ID CUST-1002 was created.
+
+KYC profile KYC-4002 was established.
+
+2020-11-05: Premium Account Opening
+
+Account ACC-2003 was opened.
+
+The account supports salary deposits, savings, and recurring payments.
+
+2022-02-14: Investment Settlement Account
+
+The customer enrolled in investment-related banking services.
+
+Account ACC-2004 was created to support investment settlement activity.
+
+2024-08-12: Product Relationship Review
+
+The bank reviewed the customer's product usage and service requirements.
+
+The customer's premium banking relationship remained active.
+
+2026-01-18: KYC Review
+
+The KYC team completed the scheduled review.
+
+Customer classification remained Low Risk.
+
+Current Relationship Status
+
+Customer relationship: Active.
+
+Associated products include premium savings and investment services.
+
+No unresolved compliance exception is recorded.
+
+4. Relationship History: CUST-1003 – Vikram Rao
+2023-03-17: Customer Onboarding
+
+Vikram Rao registered for retail banking services at BR-002.
+
+Customer ID CUST-1003 was created.
+
+KYC profile KYC-4003 was established.
+
+2023-03-17: Current Account Opening
+
+Account ACC-2005 was created.
+
+The account supports domestic transfers and customer payment activity.
+
+2024-05-11: Digital Wallet Enrollment
+
+The customer enrolled in the bank's digital wallet service.
+
+Account ACC-2006 was created.
+
+The wallet was linked to the customer identity and payment processing systems.
+
+2026-02-26: Transaction Monitoring Alert
+
+The transaction monitoring system identified an unusual deviation from the expected transaction profile.
+
+The activity was referred to the AML Operations Team.
+
+2026-03-01: AML Investigation Initiation
+
+AML case AML-6001 was created.
+
+The case was associated with customer CUST-1003 and account ACC-2005.
+
+The investigation was assigned to the AML review team.
+
+2026-03-05: Enhanced Due Diligence
+
+KYC profile KYC-4003 was updated with an enhanced due diligence requirement.
+
+The customer risk classification was elevated to High.
+
+2026-03-10: Compliance Review
+
+The Compliance Department reviewed the available transaction information and supporting customer documentation.
+
+The investigation remained open pending additional evidence.
+
+Current Relationship Status
+
+Customer relationship: Active – Enhanced Monitoring.
+
+Associated accounts:
+
+ACC-2005
+ACC-2006
+
+Associated investigation:
+
+AML-6001
+
+The elevated risk classification is an internal assessment and is not proof of misconduct.
+
+5. Relationship History: CUST-1004 – Ananya Iyer
+2022-08-21: Customer Onboarding
+
+Ananya Iyer registered as an individual retail banking customer at BR-002.
+
+Customer ID CUST-1004 was created.
+
+KYC profile KYC-4004 was initiated.
+
+2022-08-21: Savings Account Opening
+
+Account ACC-2007 was opened and activated.
+
+The customer began using the account for salary deposits and household payments.
+
+2024-01-15: Insurance Product Enrollment
+
+The customer enrolled in an insurance policy.
+
+The policy was linked to the customer's financial product relationship.
+
+2025-06-18: Customer Service Interaction
+
+The customer contacted the bank to update a communication preference.
+
+The change was validated and recorded.
+
+2026-02-15: KYC Review
+
+The KYC team completed a routine profile review.
+
+The customer remained Low Risk.
+
+Current Relationship Status
+
+Customer relationship: Active.
+
+Associated account: ACC-2007.
+
+No active AML investigation or unresolved compliance exception is recorded.
+
+6. Relationship History: CUST-1005 – Northstar Trading Solutions Pvt Ltd
+2021-09-30: Corporate Customer Onboarding
+
+Northstar Trading Solutions Pvt Ltd registered as a corporate banking customer.
+
+Customer ID CUST-1005 was created.
+
+Corporate KYC profile KYC-4005 was established.
+
+2021-09-30: Corporate Current Account Opening
+
+Account ACC-2008 was opened.
+
+The account supports business collections and supplier payments.
+
+2022-06-10: Credit Facility Enrollment
+
+The organization applied for a revolving credit facility.
+
+Credit assessment and approval were completed.
+
+Account ACC-2009 was created for credit servicing.
+
+2024-04-12: Relationship Review
+
+The bank reviewed the organization's business activity and credit utilization.
+
+The account relationship remained active.
+
+2026-01-25: Corporate KYC Review
+
+The Compliance Department reviewed corporate registration, authorized representatives, and ownership documentation.
+
+Periodic review was scheduled for July 2026.
+
+Current Relationship Status
+
+Customer relationship: Active – Periodic Review Pending.
+
+Associated accounts:
+
+ACC-2008
+ACC-2009
+
+Associated products:
+
+Corporate Current Account
+Credit Facility
+7. Cross-Customer Relationship Management
+
+Customer relationship management includes several interconnected operational processes.
+
+Customer and Employee
+
+Each customer may be assigned a relationship manager.
+
+The relationship manager is responsible for customer servicing, relationship reviews, product coordination, and service escalation.
+
+Customer and Branch
+
+Each customer is associated with a primary servicing branch.
+
+Branches support customer onboarding, account maintenance, document verification, and customer service.
+
+Customer and Account
+
+A customer may own one or multiple accounts.
+
+Each account must reference its customer ownership relationship.
+
+Customer and Financial Product
+
+A customer may subscribe to multiple financial products.
+
+Examples include savings accounts, loans, insurance policies, investment holdings, and digital wallets.
+
+Customer and Compliance
+
+Customer records are reviewed through KYC and compliance assessments.
+
+Customer risk classifications may change following new information or periodic review.
+
+Customer and AML
+
+Customers may become subjects of AML investigations when transaction monitoring generates relevant alerts.
+
+The existence of an AML case does not automatically establish a regulatory violation.
+
+Customer and Consent
+
+Customers may provide or withdraw consent for specified privacy processing activities, communications, and service-related data usage.
+
+Consent must be maintained with its purpose, effective period, status, and source.
+
+Customer and Complaint
+
+Customer complaints create service records that may be connected to accounts, transactions, products, branches, and corrective actions.
+
+8. Temporal Relationship Management
+
+Customer relationships change over time.
+
+OntoGraphRAG must preserve historical context when retrieving customer records.
+
+Examples include:
+
+A customer may have an active account today but previously maintained a closed account.
+A customer's risk category may change following a compliance assessment.
+An account may be associated with different servicing employees over time.
+A KYC profile may be updated without changing the customer's identity.
+A customer may enroll in additional financial products.
+A complaint may be resolved while remaining part of the customer's historical record.
+
+Each temporal relationship should ideally contain:
+
+Relationship identifier.
+Source entity.
+Target entity.
+Relationship type.
+Valid-from date.
+Valid-to date, where applicable.
+Relationship status.
+Source document reference.
+
+Historical records must not be overwritten merely because a relationship changes.
+

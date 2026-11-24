@@ -1,0 +1,56 @@
+1. Chargeback overview
+A chargeback is a transaction dispute initiated through a card payment dispute process.
+
+Typical reasons include:
+Customer does not recognize the transaction.
+Goods or services were not received.
+Duplicate transaction.
+Incorrect transaction amount.
+Processing error.
+Merchant-related dispute.
+
+A Chargeback is represented as an ontology class under FinancialTransaction.
+
+2. Synthetic investigation CB-1001
+Chargeback ID: CB-1001
+Original Payment: PAY-2026-0012
+Merchant: MER-3003
+Customer: CUST-1004
+Disputed Amount: INR 67,000
+Dispute Reason: Goods not received
+Filing Date: 2026-10-11
+Status: UNDER_INVESTIGATION
+Investigation observations
+
+The customer reported that the purchased electronic equipment was not delivered.
+
+The bank requested:
+Original transaction reference.
+Merchant invoice.
+Delivery confirmation.
+Customer communication history.
+Merchant response.
+
+No final liability determination has been recorded in this synthetic case.
+
+3. Chargeback lifecycle
+Customer raises dispute.
+Bank creates chargeback record.
+Original payment is identified.
+Merchant evidence is requested.
+Evidence is reviewed.
+Dispute decision is recorded.
+Financial adjustment is processed where applicable.
+Case is closed.
+
+4. Relationship mapping
+Chargeback RELATES_TO Payment.
+Chargeback INVOLVES Merchant.
+Chargeback RAISED_BY Customer.
+Chargeback SUPPORTED_BY EvidenceArtifact.
+
+RAG retrieval questions
+Which payment is associated with CB-1001?
+What is the disputed amount?
+Why did CUST-1004 raise the dispute?
+What evidence is required to resolve CB-1001?

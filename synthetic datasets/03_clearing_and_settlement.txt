@@ -1,0 +1,47 @@
+CLEARING AND SETTLEMENT OPERATIONS
+1. Clearing
+Clearing is the process of exchanging transaction information and calculating obligations between participating financial institutions. Clearing records contain transaction references, participant information, amounts, processing dates, and clearing status.
+
+2. Settlement
+Settlement represents the completion of the financial obligation between relevant parties. A payment can be authorized without being settled. Similarly, a payment can be executed but require reconciliation before the operational record is considered fully closed.
+
+3. Synthetic clearing records
+
+CLR-1001:
+Payment: PAY-2026-0001
+Amount: INR 48,500
+Clearing Status: COMPLETED
+Processing Date: 2026-10-05
+
+CLR-1002:
+Payment: PAY-2026-0010
+Amount: INR 8,900
+Clearing Status: COMPLETED
+
+CLR-1003:
+Payment: PAY-2026-0012
+Amount: INR 67,000
+Clearing Status: DISPUTED
+
+4. Synthetic settlement records
+
+SET-1001:
+Payment: PAY-2026-0001
+Clearing Record: CLR-1001
+Settlement Amount: INR 48,500
+Settlement Status: COMPLETED
+Settlement Date: 2026-10-05
+
+SET-1002:
+Payment: PAY-2026-0010
+Clearing Record: CLR-1002
+Settlement Amount: INR 8,900
+Settlement Status: COMPLETED
+
+SET-1003:
+Payment: PAY-2026-0012
+Clearing Record: CLR-1003
+Settlement Status: ON_HOLD
+
+5. Operational distinctions
+Authorization confirms whether a payment can proceed.Clearing calculates and exchanges payment obligations.Settlement completes the financial obligation.Reconciliation verifies consistency between records.These processes must not be treated as interchangeable.

@@ -1,0 +1,53 @@
+1. Refund overview
+A refund is a financial transaction that returns funds to a customer following an eligible original payment.
+
+Refunds may result from:
+Product returns.
+Service cancellation.
+Duplicate payment.
+Merchant adjustment.
+Failed delivery.
+Approved customer dispute.
+
+A refund should retain a reference to the original payment.
+
+2. Synthetic refund records
+REF-1001
+Original Payment: PAY-2026-0010
+Customer: CUST-1001
+Merchant: MER-3001
+Refund Amount: INR 1,500
+Reason: Partial merchandise return
+Status: COMPLETED
+REF-1002
+Original Payment: PAY-2026-0011
+Customer: CUST-1002
+Merchant: MER-3002
+Refund Amount: INR 24,500
+Reason: Service cancellation
+Status: PENDING
+REF-1003
+Original Payment: PAY-2026-0012
+Customer: CUST-1004
+Merchant: MER-3003
+Refund Amount: INR 67,000
+Reason: Dispute resolution
+Status: NOT_APPROVED
+3. Refund controls
+Original payment verification.
+Customer ownership verification.
+Refund amount validation.
+Duplicate refund detection.
+Merchant authorization.
+Refund status monitoring.
+Ledger posting.
+Customer notification.
+4. Important distinction
+
+A refund is not the same as a reversal.A reversal generally cancels or compensates a payment that did not complete correctly. A refund generally returns funds after a completed payment.
+
+RAG retrieval questions
+Which payment is associated with REF-1001?
+What is the status of REF-1002?
+Why is REF-1003 not approved?
+What is the difference between Refund and Chargeback?

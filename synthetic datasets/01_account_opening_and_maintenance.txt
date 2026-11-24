@@ -1,0 +1,276 @@
+Domain: Retail and Corporate Banking Operations
+Document ID: AOM-2026-001
+Institution: Meridian National Bank (Synthetic)
+Version: 1.0
+Classification: Internal – Synthetic Training Data
+
+1. Purpose
+
+This document describes the operational processes governing account opening, account maintenance, account servicing, and account closure.
+
+An Account represents a financial relationship maintained by a customer with the bank.
+
+Account opening is subject to customer identification, KYC verification, product eligibility, authorization, and applicable compliance controls.
+
+The Account ontology class is a subclass of FinancialProduct in the supplied ontology.
+
+Operational account ownership must be represented separately from the IS_A ontology relationship.
+
+2. Account Opening Lifecycle
+
+The account opening process consists of the following stages.
+
+Stage 1: Customer Registration
+
+A customer is registered in the Customer Master System.
+
+A unique Customer ID is assigned.
+
+The registration process captures the minimum information required for identification, customer classification, and servicing.
+
+Stage 2: KYC Verification
+
+The customer's identity and supporting documents are reviewed.
+
+The KYC team records the verification outcome.
+
+Accounts requiring additional due diligence must follow the applicable compliance approval process.
+
+Stage 3: Product Selection
+
+The customer selects an eligible financial product.
+
+Examples include:
+
+Savings Account.
+Current Account.
+Premium Savings Account.
+Corporate Current Account.
+Digital Wallet.
+Investment Settlement Account.
+Stage 4: Account Creation
+
+The Core Banking System generates a unique Account ID.
+
+The account record is linked to the customer and selected product.
+
+Stage 5: Authorization
+
+Account creation is approved by an authorized employee or automated approval workflow.
+
+The authorization record includes the responsible role, approval status, timestamp, and associated account reference.
+
+Stage 6: Activation
+
+Following successful approval, the account is activated.
+
+The account becomes available for permitted banking transactions.
+
+3. Account Record ACC-2001
+
+Account ID: ACC-2001
+Customer ID: CUST-1001
+Account Name: Aarav Mehta Savings Account
+Account Type: Savings
+Currency: INR
+Branch: BR-001
+Opening Date: 2021-06-12
+Account Status: Active
+KYC Reference: KYC-4001
+
+Account Purpose
+
+The account is used for salary deposits, household expenditure, recurring payments, and domestic fund transfers.
+
+Account Controls
+KYC verification is required.
+Transaction monitoring is enabled.
+Account changes require authenticated authorization.
+Customer information changes are audit logged.
+Dormancy is monitored according to internal policy.
+Account Relationships
+
+Customer: CUST-1001
+Financial Product: Savings Account
+Branch: BR-001
+KYC Profile: KYC-4001
+Authorization: AUTH-7001
+
+4. Account Record ACC-2002
+
+Account ID: ACC-2002
+Customer ID: CUST-1001
+Account Name: Aarav Mehta Personal Loan Account
+Account Type: Loan Account
+Currency: INR
+Branch: BR-001
+Opening Date: 2023-04-20
+Account Status: Active
+
+Account Purpose
+
+This account supports a personal loan facility.
+
+Loan disbursement, repayment schedules, interest calculations, and overdue monitoring are maintained through the Credit and Lending domain.
+
+The account is associated with Loan LOAN-8001.
+
+Account Controls
+
+Repayment schedules are monitored automatically.
+
+Overdue amounts are flagged for credit operations review.
+
+5. Account Record ACC-2003
+
+Account ID: ACC-2003
+Customer ID: CUST-1002
+Account Name: Priya Sharma Premium Savings
+Account Type: Premium Savings
+Currency: INR
+Branch: BR-001
+Opening Date: 2020-11-05
+Account Status: Active
+
+Account Purpose
+
+The account supports salary deposits, savings, recurring payments, and investment contributions.
+
+The account is associated with premium banking services and customer relationship management.
+
+6. Account Record ACC-2004
+
+Account ID: ACC-2004
+Customer ID: CUST-1002
+Account Name: Priya Sharma Investment Settlement Account
+Account Type: Investment Settlement
+Currency: INR
+Branch: BR-001
+Opening Date: 2022-02-14
+Account Status: Active
+
+Account Purpose
+
+The account supports investment-related settlement activity.
+
+It is operationally associated with InvestmentHolding records and relevant financial transactions.
+
+7. Account Record ACC-2005
+
+Account ID: ACC-2005
+Customer ID: CUST-1003
+Account Name: Vikram Rao Current Account
+Account Type: Current Account
+Currency: INR
+Branch: BR-002
+Opening Date: 2023-03-17
+Account Status: Active – Enhanced Monitoring
+
+Account Purpose
+
+The account supports personal financial transfers and domestic payment activity.
+
+Monitoring Controls
+
+Transaction monitoring is enabled.
+
+An elevated transaction monitoring status has been assigned following unusual activity.
+
+AML case AML-6001 is associated with the customer relationship.
+
+The account remains subject to the applicable compliance review and operational restrictions, if any, as recorded by authorized banking personnel.
+
+8. Account Record ACC-2006
+
+Account ID: ACC-2006
+Customer ID: CUST-1003
+Account Name: Vikram Rao Digital Wallet
+Account Type: Digital Wallet
+Currency: INR
+Branch: BR-002
+Opening Date: 2024-05-11
+Account Status: Active – Enhanced Monitoring
+
+Account Purpose
+
+The digital wallet supports electronic payment and domestic transfer services.
+
+The wallet is linked to customer identity verification and transaction monitoring systems.
+
+9. Account Record ACC-2007
+
+Account ID: ACC-2007
+Customer ID: CUST-1004
+Account Name: Ananya Iyer Savings Account
+Account Type: Savings
+Currency: INR
+Branch: BR-002
+Opening Date: 2022-08-21
+Account Status: Active
+
+Account Purpose
+
+The account supports ordinary retail banking services, including salary deposits, household expenses, insurance payments, and domestic transfers.
+
+No additional compliance restrictions are currently recorded.
+
+10. Corporate Accounts
+Account ACC-2008
+
+Customer: CUST-1005
+Account Name: Northstar Trading Solutions Corporate Current Account
+Account Type: Corporate Current Account
+Currency: INR
+Branch: BR-001
+Opening Date: 2021-09-30
+Status: Active
+
+The account supports business collections, supplier payments, payroll, and other declared corporate banking activities.
+
+Account ACC-2009
+
+Customer: CUST-1005
+Account Name: Northstar Trading Solutions Business Credit Account
+Account Type: Credit Facility Account
+Currency: INR
+Opening Date: 2022-06-10
+Status: Active
+
+The account supports the organization's revolving credit facility and working capital requirements.
+
+11. Account Maintenance Procedures
+
+Account maintenance includes changes to customer details, communication preferences, authorized representatives, transaction limits, product settings, and account status.
+
+All maintenance activities must be attributable to an authorized user or approved system process.
+
+Customer Information Changes
+
+Customer address and contact information updates must be validated and recorded.
+
+Material changes to customer identity or business information may trigger a KYC refresh.
+
+Account Status Changes
+
+An account may have the following operational statuses:
+
+Pending: Account creation is incomplete.
+Active: Account is available for permitted transactions.
+Dormant: Account meets internal inactivity criteria.
+Restricted: Certain operations are limited under authorized controls.
+Suspended: Account activity is temporarily stopped.
+Closed: The account relationship has ended.
+
+These statuses describe operational state. They are not ontology classes in the supplied ontology.
+
+Account Closure
+
+Account closure requires:
+
+Customer request or authorized business reason.
+Identity and authority verification.
+Review of pending transactions.
+Settlement of outstanding obligations.
+Approval by authorized personnel.
+Final account status update.
+Record retention according to applicable requirements.

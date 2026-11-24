@@ -1,0 +1,119 @@
+Institution: Meridian National Bank
+Document Category: Payment Authorization and Messaging
+Dataset: Synthetic BFSI Dataset
+
+1. Authorization overview
+Authorization is the process through which the payment processing platform determines whether a payment request can proceed.
+
+Authorization considers:
+Account validity.
+Customer authentication.
+Available balance or credit.
+Transaction amount.
+Transaction limits.
+Merchant validity.
+Card status.
+Fraud indicators.
+Compliance restrictions.
+
+An Authorization entity represents the business authorization event.
+
+2. Synthetic authorization records
+AUTH-1001
+
+Associated Payment: PAY-2026-0001
+
+Authorization Channel: Mobile Banking
+Authorization Result: APPROVED
+Amount: INR 48,500
+Risk Score: 12
+Authentication: Successful
+Decision Date: 2026-10-05
+AUTH-1002
+
+Associated Payment: PAY-2026-0002
+
+Authorization Result: PENDING_REVIEW
+Amount: INR 275,000
+Risk Score: 68
+Authentication: Successful
+Additional Review: Required
+AUTH-1003
+
+Associated Payment: PAY-2026-0003
+
+Authorization Result: DECLINED
+Amount: INR 12,750
+Risk Indicator: Account restriction
+Execution: Not permitted
+AUTH-1004
+
+Associated Payment: PAY-2026-0004
+
+Authorization Result: APPROVED
+Amount: INR 95,000
+Subsequent Processing: Failed
+Final Payment Status: REVERSED
+3. ISO 8583 message processing
+
+ISO 8583 is a standard message format used in card-based financial transaction environments.
+
+A simplified synthetic ISO8583 message may contain:
+
+Data element	Description	Example
+MTI	Message Type Indicator	0100
+DE2	Primary Account Number	MASKED
+DE3	Processing Code	000000
+DE4	Transaction Amount	000004850000
+DE7	Transmission Date and Time	1005101500
+DE11	STAN	456781
+DE18	Merchant Category Code	5411
+DE22	POS Entry Mode	051
+DE37	Retrieval Reference	RRN100001
+DE39	Response Code	00
+DE41	Terminal ID	TERM-1001
+DE42	Merchant ID	MER-3001
+
+These values are illustrative, not production messages.
+
+4. Synthetic message records
+
+ISO-MSG-1001:
+
+Payment: PAY-2026-0001
+MTI: 0100
+STAN: 456781
+Amount: INR 48,500
+Response Code: 00
+Interpretation: Approved
+
+ISO-MSG-1002:
+
+Payment: PAY-2026-0002
+MTI: 0100
+STAN: 456782
+Amount: INR 275,000
+Response Code: 91
+Interpretation: Issuer or processing availability issue; pending-review status is maintained separately in the synthetic business record.
+
+ISO-MSG-1003:
+
+Payment: PAY-2026-0003
+MTI: 0100
+STAN: 456783
+Amount: INR 12,750
+Response Code: 05
+Interpretation: Do not honor.
+5. Relationship mapping
+Payment HAS_AUTHORIZATION Authorization
+Authorization GENERATES PaymentMessage
+ISO8583Message IS_A PaymentMessage
+PaymentMessage PROCESSED_BY PaymentProcessingEntity
+Payment AUTHORIZED_BY Authorization
+6. RAG questions
+What is ISO 8583?
+What does MTI represent?
+Which authorization was associated with PAY-2026-0001?
+What was the response code for ISO-MSG-1003?
+What is the difference between an authorization and a payment?
+Which ontology class represents an ISO 8583 message?

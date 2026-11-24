@@ -1,0 +1,76 @@
+Institution: Meridian National Bank
+Business Domain: Credit and Lending
+Reporting Period: October 2026
+
+1. Loan origination overview
+Loan origination is the process of receiving, evaluating, approving, and disbursing a credit request.
+
+The process involves the Customer, Loan, CreditFacility, Account, Collateral, RiskAssessment, ComplianceAssessment, Employee, and Authorization entities.
+
+2. Loan origination lifecycle
+Customer submits application.
+Application details are recorded.
+KYC verification is completed.
+Income and employment information is evaluated.
+Credit bureau information is reviewed.
+Repayment capacity is assessed.
+Collateral is evaluated where applicable.
+Credit risk is calculated.
+Approval authority reviews the application.
+Credit facility is created.
+Loan agreement is executed.
+Funds are disbursed.
+Repayment monitoring begins.
+3. Synthetic loan records
+LOAN-1001
+Customer: CUST-1001
+Loan Type: Personal Loan
+Principal: INR 500,000
+Interest Rate: 11.5% per annum
+Tenure: 36 months
+Credit Facility: CF-1001
+Application Date: 2026-09-10
+Approval Date: 2026-09-18
+Status: ACTIVE
+
+Assessment:
+The customer demonstrated sufficient repayment capacity based on the synthetic income and credit assessment records. The loan was approved and disbursed.
+
+LOAN-1002
+Customer: CUST-1002
+Loan Type: Business Loan
+Principal: INR 2,500,000
+Interest Rate: 13.25% per annum
+Tenure: 48 months
+Credit Facility: CF-1002
+Status: ACTIVE
+
+Assessment:
+The application was supported by business financial statements and collateral documentation. The credit committee approved the facility subject to periodic financial reporting.
+
+LOAN-1003
+Customer: CUST-1003
+Loan Type: Secured Loan
+Principal: INR 1,200,000
+Tenure: 60 months
+Credit Facility: CF-1003
+Status: UNDER_REVIEW
+
+Assessment:
+The application requires additional collateral verification and updated income documentation.
+
+4. Loan monitoring
+Loan monitoring evaluates:
+Outstanding principal.
+Interest obligations.
+Repayment history.
+Days past due.
+Collateral coverage.
+Customer financial condition.
+Credit risk classification.
+
+RAG retrieval questions
+Which customer owns LOAN-1001?
+What is the principal amount of LOAN-1002?
+Why is LOAN-1003 under review?
+What is the relationship between Loan and CreditFacility?

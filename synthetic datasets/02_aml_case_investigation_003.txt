@@ -1,0 +1,185 @@
+Case ID: AML-2026-003
+Case Name: Merchant Account Transaction Anomaly and Refund Irregularities
+
+1. Case Overview
+Case Reference: AML-2026-003
+Case Name: Merchant Account Transaction Anomaly and Refund Irregularities
+Investigation Category: Merchant Financial Crime Risk
+Risk Classification: High
+Case Status: Investigation in Progress
+Reporting Institution: Meridian National Bank (Synthetic)
+Investigation Period: 01 October 2026 – 12 October 2026
+Merchant ID: MER-3001
+Merchant Name: Nova Digital Commerce (Synthetic)
+Settlement Account: ACC-MER-3001
+Assigned Investigator: EMP-AML-025
+Monitoring Alert: ALERT-2026-1013
+
+2. Background
+The merchant monitoring platform identified an unusual increase in transaction volume associated with merchant MER-3001.
+The merchant primarily operated an online consumer electronics business.
+Historical activity indicated relatively stable payment volumes and a normal proportion of refunds and chargebacks.
+
+During the review period, the monitoring platform observed:
+
+A sharp increase in transaction value.
+A significant increase in refunds.
+Multiple customer disputes.
+Inconsistencies between payment and settlement records.
+Unusual relationships between payment transactions and refund events.
+
+The activity was referred to the Financial Crime Compliance Department.
+
+3. Merchant Profile
+
+Merchant ID: MER-3001
+Merchant Name: Nova Digital Commerce
+Merchant Category: Online Electronics Retailer
+Business Registration: Synthetic registration reference REG-MER-3001
+Merchant Risk Rating: Medium before alert
+Settlement Account: ACC-MER-3001
+Acquiring Branch: BR-MUM-003
+Merchant Status: Active during initial review
+
+The merchant had operated with the bank for approximately three years.
+
+4. Transaction Overview
+Transaction ID	Date	Type	Amount (INR)	Status
+TXN-AML-031	01 Oct 2026	Payment	185,000	Approved
+TXN-AML-032	02 Oct 2026	Payment	210,000	Approved
+TXN-AML-033	03 Oct 2026	Payment	195,000	Approved
+TXN-AML-034	04 Oct 2026	Refund	180,000	Processed
+TXN-AML-035	05 Oct 2026	Refund	160,000	Processed
+TXN-AML-036	06 Oct 2026	Payment	240,000	Approved
+TXN-AML-037	08 Oct 2026	Chargeback	210,000	Disputed
+
+Total payment value: INR 830,000.
+
+Total refund value: INR 340,000.
+
+The chargeback amount was INR 210,000.
+
+5. Payment Processing Analysis
+
+The payment processing team examined the relationship between the original payment records, authorization messages, clearing records, settlement instructions, and subsequent refunds.
+
+The following systems were reviewed:
+
+Payment processing platform.
+ISO 8583 authorization message repository.
+Merchant transaction ledger.
+Clearing records.
+Settlement records.
+Refund processing platform.
+Chargeback management system.
+
+The purpose was to establish whether payment and refund records represented legitimate commercial activity and whether all transactions had been correctly reconciled.
+
+6. Merchant Risk Indicators
+
+The review identified several indicators requiring further investigation:
+
+Unusual growth in transaction value.
+Increased refund frequency.
+Higher-than-normal customer dispute levels.
+Discrepancies between payment and refund documentation.
+Potentially inconsistent merchant transaction descriptions.
+Incomplete supporting sales documentation.
+
+These indicators were treated as investigative findings rather than proof of intentional misconduct.
+
+7. Evidence Register
+Evidence ID	Evidence Description
+EVD-AML-031	Merchant transaction history
+EVD-AML-032	Payment authorization records
+EVD-AML-033	ISO 8583 message samples
+EVD-AML-034	Clearing records
+EVD-AML-035	Settlement reconciliation
+EVD-AML-036	Refund processing history
+EVD-AML-037	Chargeback investigation records
+8. Investigation Findings
+
+The investigation established that the merchant's transaction profile changed materially during the review period.
+
+Refund activity and customer disputes increased relative to historical levels.
+
+The investigation team identified discrepancies requiring reconciliation between the merchant's payment records and the settlement platform.
+
+The compliance team requested additional business documentation, including invoices, delivery confirmations, and refund justifications.
+
+9. Corrective Actions
+CA-AML-031: Reconcile payment and settlement records.
+CA-AML-032: Verify supporting sales documentation.
+CA-AML-033: Review refund authorization evidence.
+CA-AML-034: Analyze chargeback trends.
+CA-AML-035: Complete merchant risk reassessment.
+CA-AML-036: Determine whether regulatory escalation is required.
+10. Cross-Domain Dependencies
+
+This investigation involves several BFSI business domains.
+
+Payment Processing: Provides authorization, payment, clearing, settlement, and refund information.
+
+Customer Service: Provides customer complaints and dispute histories.
+
+Financial Risk Management: Assesses merchant exposure and potential financial losses.
+
+Compliance and Governance: Determines regulatory obligations and documents investigation outcomes.
+
+Information Security: Provides relevant system access and audit evidence where necessary.
+
+11. Final Status
+
+Case Status: Investigation in Progress
+Merchant Risk: High under review
+Settlement Review: Required
+Chargeback Review: Required
+Regulatory Reporting: Pending compliance decision
+
+12. OntoGraphRAG Entity Mapping
+
+Entities:
+AMLCase: AML-2026-003
+Merchant: MER-3001
+Account: ACC-MER-3001
+Branch: BR-MUM-003
+FinancialTransaction: TXN-AML-031 through TXN-AML-037
+Payment: PAY-AML-031 through PAY-AML-036
+Refund: REF-AML-031 and REF-AML-032
+Chargeback: CB-AML-031
+ISO8583Message: ISO-AML-031 through ISO-AML-033
+ClearingRecord: CLR-AML-031
+Settlement: SET-AML-031
+Reconciliation: REC-AML-031
+Risk: RISK-AML-003
+RiskAssessment: RASS-AML-003
+EvidenceArtifact: EVD-AML-031 through EVD-AML-037
+ComplianceAssessment: COMP-ASSESS-003
+CorrectiveAction: CA-AML-031 through CA-AML-036
+
+Operational relationships:
+
+Merchant MAINTAINS Account.
+Merchant RECEIVES Payment.
+Payment GENERATES FinancialTransaction.
+Payment HAS_AUTHORIZATION Authorization.
+Payment HAS_MESSAGE ISO8583Message.
+Payment PRODUCES ClearingRecord.
+ClearingRecord CONTRIBUTES_TO Settlement.
+Payment MAY_GENERATE Refund.
+Payment MAY_ATTRACT Chargeback.
+Settlement SUBJECT_TO Reconciliation.
+AMLCase INVESTIGATES Merchant.
+AMLCase REVIEWS Payment.
+AMLCase REVIEWS Refund.
+AMLCase REVIEWS Chargeback.
+AMLCase HAS_EVIDENCE EvidenceArtifact.
+AMLCase HAS_RISK Risk.
+AMLCase REQUIRES CorrectiveAction.
+AMLCase SUBJECT_TO ComplianceAssessment.
+
+13. Retrieval-Oriented Knowledge Summary
+
+AML-2026-003 concerns unusual payment, refund, and chargeback behavior associated with merchant MER-3001. The investigation identified INR 830,000 in payment activity, INR 340,000 in refunds, and a disputed chargeback of INR 210,000.
+
+The investigation requires cross-system verification of payment authorization, ISO 8583 messages, clearing, settlement, reconciliation, refund, and chargeback records. The case connects AML, payment processing, merchant management, financial risk, customer service, and compliance domains.

@@ -1,0 +1,129 @@
+INFORMATION SECURITY INCIDENT REPORTS
+Reporting Period: October 2026
+
+1. Purpose
+This report provides a consolidated overview of information security incidents identified across banking operations, digital banking platforms, payment processing infrastructure, customer information systems, and internal business applications.
+
+The report documents incident classification, affected information assets, potential business impact, investigation findings, containment measures, corrective actions, and incident closure status.
+
+It connects information security incident management with vulnerability assessments, information asset management, compliance obligations, internal audits, and management reviews.
+
+2. Security incident summary
+Incident ID	Incident Type	Affected Asset	Severity	Status
+INC-1001	Unauthorized access attempt	Customer Information Portal	HIGH	INVESTIGATING
+INC-1002	Suspicious login activity	Digital Banking Platform	MEDIUM	CONTAINED
+INC-1003	Data exposure configuration issue	Customer Data Repository	HIGH	IN_PROGRESS
+INC-1004	Malware detection alert	Employee Workstation Network	MEDIUM	RESOLVED
+INC-1005	Privileged access policy violation	Core Banking Application	HIGH	OPEN
+INC-1006	Failed authentication attempts	Payment Gateway	LOW	MONITORING
+INC-2001	Third-party security notification	Payment Processing Interface	HIGH	IN_PROGRESS
+
+3. Detailed incident observations
+3.1 Unauthorized access attempt
+Incident INC-1001 was identified following multiple unsuccessful authentication attempts against the Customer Information Portal. The security monitoring function detected unusual authentication activity associated with an account that did not follow the established access pattern.
+
+The incident response team initiated an investigation to determine whether unauthorized access had occurred.
+
+Actions performed:
+Temporarily restricted the affected account.
+Reviewed authentication and access logs.
+Initiated additional identity verification.
+Checked for suspicious account activity.
+Escalated the incident to the information security team.
+
+Current assessment: No confirmed unauthorized data modification has been established. Investigation remains ongoing.
+
+3.2 Suspicious digital banking login activity
+Incident INC-1002 involved repeated login activity from an unusual access pattern associated with the digital banking platform.
+
+The monitoring system generated an alert, and the security operations team reviewed the authentication records.
+Additional authentication controls were applied to the affected account.
+Current assessment: The activity was contained. Continued monitoring is required to identify recurrence.
+
+3.3 Customer information exposure concern
+Incident INC-1003 relates to a configuration issue identified in a customer data repository.
+The initial assessment identified a potential weakness in the repository's access configuration.
+The security team initiated a review of access permissions, data classification, and applicable privacy controls.
+
+Actions performed:
+Restricted access to the affected repository.
+Initiated a configuration review.
+Identified authorized service accounts.
+Requested validation of data access logs.
+Initiated a privacy impact assessment.
+
+Current assessment: The potential exposure requires further investigation. No assumption of confirmed data exfiltration should be made without supporting evidence.
+
+3.4 Malware detection alert
+Incident INC-1004 was generated after endpoint security monitoring identified a suspicious file on an employee workstation.
+The affected workstation was isolated from the corporate network while the security team conducted an investigation.
+Endpoint security checks were completed, and the workstation was restored following verification.
+Current assessment: Incident resolved. Endpoint monitoring remains active.
+
+3.5 Privileged access policy violation
+Incident INC-1005 concerns an employee account identified with permissions exceeding its approved business responsibilities.
+
+The access review identified a deviation from the established privileged access management requirements.
+
+The incident remains open pending access recertification and management approval.
+
+4. Incident response and corrective action tracking
+Action ID		Related Incident		Corrective Action	Responsible Function	Status
+CA-1001	INC-1001	Review authentication controls	Information Security	IN_PROGRESS
+CA-1002	INC-1002	Strengthen suspicious login monitoring	Security Operations	COMPLETED
+CA-1003	INC-1003	Validate repository permissions	Data Security	IN_PROGRESS
+CA-1004	INC-1004	Complete endpoint security review	IT Operations	COMPLETED
+CA-1005	INC-1005	Conduct privileged access recertification	IAM Team	OPEN
+CA-1006	INC-2001	Review third-party security controls	Vendor Risk Management	IN_PROGRESS
+
+5. Incident impact assessment
+Security incidents may affect the confidentiality, integrity, and availability of banking information systems.
+
+The primary areas requiring continued monitoring include:
+Customer personal and financial information.
+Authentication credentials and access permissions.
+Payment processing infrastructure.
+Employee endpoints and internal networks.
+Third-party service integrations.
+Core banking application availability.
+
+Incident impact should be evaluated using documented evidence, affected asset classification, operational disruption, and potential regulatory implications.
+
+6. Management recommendations
+Prioritize investigation of high-severity incidents.
+Maintain a centralized security incident register.
+Ensure timely escalation of material incidents.
+Preserve investigation evidence and audit logs.
+Review privileged access permissions periodically.
+Verify corrective actions before incident closure.
+Conduct periodic incident response exercises.
+Integrate incident findings with vulnerability assessments.
+Review third-party security notifications.
+Report unresolved material incidents to senior management.
+
+7. Ontology relationships
+
+SecurityIncident IS_A InformationSecurityEntity.
+SecurityIncident IS_A BFSI_domain_ontology.
+InformationAsset IS_A InformationSecurityEntity.
+DataAsset IS_A InformationSecurityEntity.
+Employee IS_A FinancialEntity.
+SecurityIncident AFFECTS InformationAsset.
+SecurityIncident IDENTIFIES Vulnerability.
+CorrectiveAction IMPLEMENTS IncidentRemediation.
+EvidenceArtifact SUPPORTS SecurityIncident.
+InformationSecurityEntity GOVERNED_BY Policy.
+ManagementReview REVIEWS SecurityIncident.
+InternalAudit AUDITS InformationSecurityEntity.
+
+8. RAG retrieval questions
+Which security incidents were classified as high severity?
+What information asset was affected by INC-1003?
+Which incident involved suspicious digital banking login activity?
+What corrective action is associated with INC-1005?
+Which incidents remain open or under investigation?
+What actions were performed for the malware detection incident?
+How does a SecurityIncident relate to InformationAsset?
+Which organizational functions are responsible for incident remediation?
+Why should incident evidence be preserved?
+How does management review connect with security incident management?

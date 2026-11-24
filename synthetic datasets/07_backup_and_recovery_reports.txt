@@ -1,0 +1,144 @@
+BACKUP AND DISASTER RECOVERY REPORT
+Reporting Period: October 2026
+
+1. Purpose
+This report provides an overview of backup operations, recovery readiness, backup validation, restoration testing, recovery objectives, and business continuity arrangements.
+
+It evaluates whether critical banking information assets are protected through appropriate backup and recovery arrangements.
+The report connects backup management with information asset protection, operational resilience, disaster recovery planning, and business continuity management.
+
+2. Backup operations summary
+Backup ID	Protected Asset	Backup Type	Frequency	Status
+BAK-1001	Customer Information Database	Incremental	Daily	COMPLETED
+BAK-1002	Core Banking Application	Full	Daily	COMPLETED
+BAK-1003	Payment Processing Database	Incremental	Daily	COMPLETED
+BAK-1004	Digital Banking Platform	Full	Weekly	COMPLETED
+BAK-1005	Loan Documentation Repository	Incremental	Daily	FAILED
+BAK-1006	Customer Consent Repository	Full	Weekly	COMPLETED
+BAK-1007	Security Audit Log Repository	Incremental	Daily	COMPLETED
+BAK-1008	Regulatory Reporting Database	Full	Weekly	PENDING_VALIDATION
+
+3. Detailed backup observations
+3.1 Customer information database backup
+Backup BAK-1001 protects the customer information database through scheduled incremental backups.
+The backup operation completed successfully during the reporting period.
+Backup monitoring records indicate that the scheduled process completed without a reported failure.
+
+Required controls:
+Verify backup completion records.
+Monitor backup storage capacity.
+Validate backup integrity.
+Conduct periodic restoration tests.
+Maintain appropriate access restrictions.
+
+Status: COMPLETED.
+
+3.2 Core banking application backup
+Backup BAK-1002 protects the core banking application and supporting operational configuration.
+
+The application is considered a critical banking asset because service interruption could affect customer transactions and operational activities. Daily backup operations are configured to support recovery requirements.
+
+Recovery considerations:
+Application configuration restoration.
+Database consistency validation.
+Service dependency verification.
+Business owner approval.
+Post-restoration reconciliation.
+Status: COMPLETED.
+
+3.3 Payment processing database backup
+Backup BAK-1003 supports the protection of payment processing records.
+The backup process is monitored to ensure that transaction-related information remains recoverable.
+Recovery validation must include data consistency and reconciliation checks.
+Status: COMPLETED.
+
+3.4 Loan documentation backup failure
+Backup BAK-1005 recorded a failure during the reporting period.The backup operations team initiated an investigation to determine whether the failure was associated with storage capacity, scheduling, or service availability. The failed backup requires remediation and successful verification.
+
+Corrective actions:
+Investigate the failed backup job.
+Validate the source repository.
+Review storage availability.
+Execute an approved backup retry.
+Verify backup integrity.
+Document successful completion.
+Status: FAILED.
+
+3.5 Regulatory reporting database
+Backup BAK-1008 was completed but remains pending validation. The compliance and IT teams must verify the availability and integrity of the backup before considering the operation fully complete.
+Status: PENDING_VALIDATION.
+
+4. Recovery objective register
+Recovery Objective ID	Protected System	RTO	RPO	Priority
+RPOBJ-1001	Core Banking Application	2 Hours	15 Minutes	CRITICAL
+RPOBJ-1002	Payment Processing Database	2 Hours	15 Minutes	CRITICAL
+RPOBJ-1003	Digital Banking Platform	4 Hours	30 Minutes	HIGH
+RPOBJ-1004	Customer Information Database	4 Hours	30 Minutes	HIGH
+RPOBJ-1005	Loan Documentation Repository	12 Hours	4 Hours	MEDIUM
+RPOBJ-1006	Customer Consent Repository	8 Hours	2 Hours	HIGH
+RPOBJ-1007	Security Audit Log Repository	8 Hours	1 Hour	HIGH
+
+RTO represents the target time for restoring a service after disruption.
+RPO represents the maximum targeted period of data loss measured in time.
+These objectives are illustrative organizational targets and require approval through the formal business impact analysis process.
+
+5. Disaster recovery testing summary
+Test ID	System	Test Activity	Result	Status
+DRT-1001	Core Banking Application	Restoration validation	Successful	PASSED
+DRT-1002	Payment Processing Database	Data consistency validation	Successful	PASSED
+DRT-1003	Digital Banking Platform	Application recovery simulation	Minor issues	CONDITIONAL
+DRT-1004	Loan Documentation Repository	Backup restoration	Not completed	OPEN
+DRT-1005	Customer Consent Repository	Recovery validation	Successful	PASSED
+
+6. Recovery readiness observations
+The organization maintains backup arrangements for critical banking applications and information repositories. However, successful backup execution alone does not establish recovery readiness.
+
+Recovery readiness also requires:
+Successful restoration testing.
+Verification of recovered data.
+Validation of application dependencies.
+Availability of recovery documentation.
+Assignment of recovery responsibilities.
+Periodic business continuity exercises.
+
+The loan documentation backup failure and conditional digital banking recovery test require management attention.
+
+7. Management recommendations
+Investigate failed backup operations.
+Validate backup integrity periodically.
+Conduct restoration testing for critical systems.
+Review RTO and RPO targets.
+Restrict backup administrative privileges.
+Maintain recovery evidence.
+Test disaster recovery arrangements.
+Link backup coverage with the information asset register.
+Escalate unresolved recovery deficiencies.
+Review recovery readiness with senior management.
+
+8. Ontology relationships
+Backup IS_A InformationSecurityEntity.
+Backup IS_A BFSI_domain_ontology.
+InformationAsset IS_A InformationSecurityEntity.
+RecoveryObjective IS_A GovernanceEntity.
+EvidenceArtifact IS_A GovernanceEntity.
+Risk IS_A RiskManagementEntity.
+Backup PROTECTS InformationAsset.
+Backup SUPPORTS RecoveryObjective.
+RecoveryObjective DEFINES RecoveryTarget.
+InformationAsset OWNED_BY Organization.
+RiskAssessment ASSESSES Risk.
+CorrectiveAction IMPLEMENTS RiskTreatment.
+ManagementReview REVIEWS Backup.
+InternalAudit AUDITS Backup.
+
+9. RAG retrieval questions
+Which backup operation failed during October 2026?
+Which backup protects the core banking application?
+What is the RTO for the core banking application?
+What is the RPO for the payment processing database?
+Which disaster recovery test received a conditional result?
+Why does backup completion not guarantee recovery readiness?
+What corrective actions are required for BAK-1005?
+How does Backup relate to InformationAsset?
+What is the difference between RTO and RPO?
+How does management review connect with backup management?

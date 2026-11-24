@@ -1,0 +1,180 @@
+Financial Crime Compliance Repository
+1. Purpose
+This document maintains the synthetic Suspicious Activity Report (SAR) register for Meridian National Bank.
+The SAR repository supports investigation tracking, reporting decisions, compliance oversight, and regulatory evidence management.
+
+A suspicious activity alert, an internal investigation, and a regulatory SAR filing represent different operational events.An automated monitoring alert identifies potentially unusual activity. An AML investigation examines the circumstances and supporting evidence.
+
+An authorized compliance decision determines whether reporting obligations are triggered.
+A SAR record should therefore distinguish between:
+
+Alert generated.
+Investigation initiated.
+Investigation completed.
+Reporting decision pending.
+Reporting decision approved.
+Regulatory report submitted.
+Follow-up or supplementary reporting required.
+2. SAR-2026-001
+
+SAR ID: SAR-2026-001
+Related AML Case: AML-2026-001
+Customer: CUST-1001
+Account: ACC-1001-01
+Investigation Category: Rapid Fund Movement
+Risk Classification: High
+Reporting Decision: Pending
+Reporting Period: September 2026
+
+Suspicious Activity Summary
+
+The customer received INR 1,250,000 from multiple counterparties and transferred INR 1,150,000 to multiple beneficiaries during the monitoring period.
+
+The transactions differed from the customer's historical financial activity.
+
+The investigation team requested supporting documents to establish the source of funds and the economic purpose of the transfers.
+
+The reporting team must assess the complete investigation record before determining whether a regulatory SAR filing is required.
+
+Supporting Evidence:
+
+EVD-AML-001
+EVD-AML-002
+EVD-AML-003
+EVD-AML-004
+EVD-AML-005
+
+Related Risk: RISK-AML-001
+
+Status: Pending compliance decision.
+
+3. SAR-2026-002
+
+SAR ID: SAR-2026-002
+Related AML Case: AML-2026-002
+Customer: CUST-1002
+Account: ACC-1002-01
+Investigation Category: Dormant Account Reactivation
+Risk Classification: High
+Reporting Decision: Pending
+
+Suspicious Activity Summary
+
+A previously dormant customer account received INR 1,800,000 followed by multiple outward transfers.
+
+The customer's historical account activity was limited and inconsistent with the observed transaction volume.
+
+The investigation team initiated enhanced due diligence and requested source-of-funds documentation.
+
+Supporting Evidence:
+
+EVD-AML-021
+EVD-AML-022
+EVD-AML-023
+EVD-AML-024
+EVD-AML-025
+
+Related Risk: RISK-AML-002
+
+Status: Pending compliance decision.
+
+4. SAR-2026-003
+
+SAR ID: SAR-2026-003
+Related AML Case: AML-2026-003
+Merchant: MER-3001
+Settlement Account: ACC-MER-3001
+Investigation Category: Merchant Payment and Refund Anomalies
+Risk Classification: High
+Reporting Decision: Pending
+
+Suspicious Activity Summary
+
+The merchant exhibited an unusual increase in transaction volume, refunds, and chargebacks.
+
+The investigation team identified discrepancies requiring reconciliation between payment, refund, clearing, and settlement records.
+
+Supporting sales documentation and merchant transaction explanations were requested.
+
+Supporting Evidence:
+
+EVD-AML-031
+EVD-AML-032
+EVD-AML-033
+EVD-AML-034
+EVD-AML-035
+EVD-AML-036
+EVD-AML-037
+
+Related Risk: RISK-AML-003
+
+Status: Pending compliance decision.
+
+5. SAR Lifecycle Management
+
+The synthetic institution follows the following internal reporting lifecycle:
+
+Transaction Monitoring generates an alert.
+Financial Crime Compliance creates an AMLCase.
+The investigator identifies related customers, accounts, transactions, and beneficiaries.
+Evidence artifacts are attached to the case.
+The investigator prepares an investigation assessment.
+Compliance personnel review the findings.
+An authorized reporting decision is recorded.
+Where required, a regulatory report is submitted.
+Submission evidence and reference details are retained.
+The institution conducts ongoing monitoring and any required follow-up.
+
+6. SAR Data Governance
+Each SAR record should maintain:
+Unique SAR identifier.
+Related AMLCase identifier.
+Related customer or merchant.
+Related accounts.
+Related financial transactions.
+Reporting jurisdiction.
+Reporting decision.
+Decision date.
+Authorized reviewer.
+Evidence references.
+Submission status.
+Submission reference, where applicable.
+Confidentiality classification.
+Record retention category.
+
+SAR confidentiality must be preserved. Access to SAR-related information should be restricted to authorized personnel.
+
+7. OntoGraphRAG Entity Mapping
+
+Ontology classes:
+SuspiciousActivityReport
+AMLCase
+ComplianceEntity
+ComplianceAssessment
+Customer
+Account
+Merchant
+FinancialTransaction
+EvidenceArtifact
+Risk
+Employee
+RegulatoryObligation
+RegulatoryReport
+
+Operational relationships:
+SuspiciousActivityReport RELATES_TO AMLCase.
+SuspiciousActivityReport REFERENCES Customer.
+SuspiciousActivityReport REFERENCES Merchant.
+SuspiciousActivityReport REFERENCES FinancialTransaction.
+SuspiciousActivityReport SUPPORTED_BY EvidenceArtifact.
+SuspiciousActivityReport REVIEWED_BY Employee.
+SuspiciousActivityReport SUBJECT_TO RegulatoryObligation.
+SuspiciousActivityReport MAY_RESULT_IN RegulatoryReport.
+ComplianceAssessment EVALUATES SuspiciousActivityReport.
+AMLCase HAS_REPORTING_ASSESSMENT ComplianceAssessment.
+
+8. Retrieval-Oriented Knowledge Summary
+The SAR repository contains three synthetic reporting records.
+SAR-2026-001 relates to rapid fund movement in AML-2026-001.
+SAR-2026-002 relates to dormant account reactivation in AML-2026-002.
+SAR-2026-003 relates to unusual merchant payment, refund, and chargeback activity in AML-2026-003.

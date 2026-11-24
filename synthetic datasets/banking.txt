@@ -1,0 +1,46 @@
+Banking Operations and Financial Products
+1. Bank Information
+Apex National Bank (ANB) is a fictional commercial bank established in 2010. It provides retail banking, corporate banking, personal loans, and digital banking services.
+The bank operates through its headquarters in Hyderabad, India.
+
+2. Banking Products
+
+Apex National Bank offers the following products:
+
+2.1 Savings Account
+The Savings Account is designed for individual customers.
+    Minimum balance: INR 5,000
+    Annual interest rate: 3.5%
+    Account type: Deposit Account
+    Eligible customers: Individual customers
+    Personal Loan
+
+2.2 Personal Loan
+The Personal Loan is an unsecured credit facility offered to eligible customers.
+    Minimum loan amount: INR 50,000
+    Maximum loan amount: INR 2,000,000
+    Annual interest rate: 10.5%
+    Maximum repayment period: 60 months
+
+2.3 Business Loan
+The Business Loan is offered to registered businesses for operational and expansion requirements.
+    Minimum loan amount: INR 500,000
+    Maximum loan amount: INR 10,000,000
+    Annual interest rate: 12%
+    Maximum repayment period: 84 months
+
+3. Banking Operations
+    Apex National Bank maintains customer accounts and processes financial transactions.
+    Customers can apply for loans through bank branches or digital banking channels.
+    The bank evaluates loan applications using customer income, credit history, repayment capacity, and existing financial obligations.
+
+4. Banking Relationships
+    Apex National Bank provides Savings Accounts.
+    Apex National Bank provides Personal Loans.
+    Apex National Bank provides Business Loans.
+    Customers maintain accounts with Apex National Bank.
+    Customers apply for loans offered by Apex National Bank.
+5. Technology Infrastructure
+
+The bank uses a fictional Core Banking System called ApexCore to manage customer accounts, loan records, and financial transactions.
+ApexCore integrates with the bank's digital banking platform.

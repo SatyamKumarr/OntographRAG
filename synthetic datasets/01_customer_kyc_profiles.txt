@@ -1,0 +1,261 @@
+Domain: Customer Due Diligence and Compliance
+Document ID: KYC-PROFILE-2026-001
+Institution: Meridian National Bank (Synthetic)
+Version: 1.0
+Classification: Internal – Synthetic Training Data
+
+1. Purpose
+
+This document describes the Know Your Customer (KYC) profiles maintained by Meridian National Bank.
+
+KYC is a customer due diligence process used to establish customer identity, understand the nature of the banking relationship, evaluate customer risk, and maintain compliance with applicable regulatory obligations.
+
+KYC information is used during:
+
+New customer onboarding.
+Account opening.
+Financial product enrollment.
+Periodic customer reviews.
+Enhanced due diligence.
+AML transaction investigations.
+Regulatory compliance assessments.
+
+A KYC profile is represented by the KYC ontology class.
+
+Each profile is linked operationally to one Customer and may be referenced by multiple ComplianceAssessment records.
+
+2. KYC Profile KYC-4001
+
+Customer: CUST-1001
+Customer Name: Aarav Mehta
+KYC Status: Verified
+Risk Classification: Medium
+Verification Date: 2026-02-10
+Next Review: 2027-02-10
+
+Identity Verification
+
+Identity verification was completed using synthetic identity-document references.
+
+Identity status: Verified
+Address status: Verified
+Customer identification status: Complete
+Document validity: Valid
+
+Customer Due Diligence
+
+The customer declared salaried employment and regular monthly income.
+
+The expected transaction pattern includes salary credits, household expenditure, domestic transfers, and scheduled loan repayments.
+
+The observed financial relationship is consistent with the declared profile.
+
+Screening Results
+
+Sanctions screening: No match identified
+PEP screening: No match identified
+Adverse media screening: No material match identified
+
+Assessment Outcome
+
+KYC verification was completed successfully.
+
+The profile is classified as Medium Risk due to the bank's internal customer risk scoring model.
+
+No enhanced due diligence action is currently required.
+
+3. KYC Profile KYC-4002
+
+Customer: CUST-1002
+Customer Name: Priya Sharma
+KYC Status: Verified
+Risk Classification: Low
+Verification Date: 2026-01-18
+Next Review: 2027-01-18
+
+Identity Verification
+
+Identity verification was completed successfully.
+
+Identity status: Verified
+Address status: Verified
+Employment status: Verified
+Document validity: Valid
+
+Customer Due Diligence
+
+The customer declared salaried employment and investment-related financial activity.
+
+Expected transactions include salary deposits, investment contributions, recurring payments, and domestic transfers.
+
+Observed activity is consistent with the declared financial profile.
+
+Screening Results
+
+Sanctions screening: No match identified
+PEP screening: No match identified
+Adverse media screening: No material match identified
+
+Assessment Outcome
+
+The customer is classified as Low Risk.
+
+Standard customer due diligence is considered sufficient.
+
+4. KYC Profile KYC-4003
+
+Customer: CUST-1003
+Customer Name: Vikram Rao
+KYC Status: Verified – Enhanced Due Diligence Required
+Risk Classification: High
+Verification Date: 2026-03-05
+Next Review: 2026-09-05
+
+Identity Verification
+
+Identity verification was completed successfully.
+
+Identity status: Verified
+Address status: Verified
+Employment information: Verified
+Document validity: Valid
+
+Customer Due Diligence
+
+The customer declared personal financial activity and domestic transfer requirements.
+
+Transaction monitoring subsequently identified a deviation from the expected transaction profile.
+
+The deviation involved a higher frequency of third-party transfers and unusual transaction concentration over a short period.
+
+Screening Results
+
+Sanctions screening: No confirmed match
+PEP screening: Review completed
+Adverse media screening: No confirmed match
+
+Enhanced Due Diligence
+
+The Compliance Department initiated enhanced due diligence.
+
+The review requires examination of:
+
+Source of funds information.
+Transaction purpose.
+Relationship with identified counterparties.
+Customer explanation of unusual activity.
+Consistency between declared income and transaction activity.
+
+The enhanced review remains associated with AML case AML-6001.
+
+Assessment Outcome
+
+KYC identity verification remains complete.
+
+However, the customer risk classification is High, and enhanced due diligence is required.
+
+High-risk classification is not equivalent to a determination of financial crime.
+
+5. KYC Profile KYC-4004
+
+Customer: CUST-1004
+Customer Name: Ananya Iyer
+KYC Status: Verified
+Risk Classification: Low
+Verification Date: 2026-02-15
+Next Review: 2027-02-15
+
+Identity Verification
+
+Identity and residential address verification were completed.
+
+Identity status: Verified
+Address status: Verified
+Employment status: Verified
+Document validity: Valid
+
+Customer Due Diligence
+
+The customer declared salaried employment and ordinary retail banking requirements.
+
+Observed activity is consistent with expected salary deposits, insurance premium payments, and household expenses.
+
+Screening Results
+
+Sanctions screening: No match identified
+PEP screening: No match identified
+Adverse media screening: No material match identified
+
+Assessment Outcome
+
+The customer meets standard KYC verification requirements.
+
+No additional due diligence action is currently pending.
+
+6. KYC Profile KYC-4005
+
+Customer: CUST-1005
+Customer Name: Northstar Trading Solutions Pvt Ltd
+KYC Status: Verified – Periodic Review Pending
+Risk Classification: Medium
+Verification Date: 2026-01-25
+Next Review: 2026-07-25
+
+Corporate Identity Verification
+
+Corporate registration status: Verified
+Registered business address: Verified
+Authorized representative information: Verified
+Business activity: Wholesale distribution
+Ownership information: Reviewed
+
+Business Due Diligence
+
+The organization declared wholesale trading as its primary business activity.
+
+Expected financial activity includes supplier settlements, customer collections, payroll payments, and working capital transactions.
+
+Screening Results
+
+Corporate sanctions screening: No confirmed match
+Beneficial ownership screening: Completed
+Adverse media screening: No material match identified
+
+Assessment Outcome
+
+The organization is classified as Medium Risk.
+
+Periodic review remains pending to confirm that business operations and financial activity remain consistent with the declared profile.
+
+7. KYC Lifecycle Management
+
+KYC operations follow a controlled lifecycle:
+
+Customer identification.
+Identity-document collection.
+Identity and address verification.
+Customer due diligence.
+Risk classification.
+Sanctions and screening checks.
+Compliance approval.
+Periodic review.
+Enhanced due diligence when necessary.
+Profile update and evidence retention.
+
+A KYC profile may remain verified while a separate enhanced due diligence review is pending.
+
+Therefore, KYC verification status and customer risk classification must be treated as separate business concepts.
+
+8. KYC and AML Integration
+KYC data provides the baseline customer profile used by AML transaction monitoring.
+When actual financial activity differs materially from expected activity, a monitoring alert may be generated.
+
+An alert may lead to:
+Transaction review.
+Customer clarification.
+Enhanced due diligence.
+AML case creation.
+Compliance escalation.
+Suspicious Activity Report assessment.
+
+Not every alert results in an AML case, and not every AML investigation results in a regulatory filing.

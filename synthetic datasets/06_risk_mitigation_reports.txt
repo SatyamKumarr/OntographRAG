@@ -1,0 +1,60 @@
+RISK MITIGATION AND MONITORING REPORTS
+Reporting Period: October 2026
+
+1. Purpose
+This report provides an integrated view of identified risks, treatment activities, mitigation progress, and residual exposure.
+
+The report connects risk management with operational activities, compliance assessments, audit findings, and management reviews.
+
+2. Risk mitigation summary
+Risk	Description	Inherent Score	Treatment	Status
+RISK-1001	Payment processing outage	12	RT-1001	IN_PROGRESS
+RISK-1002	Incomplete customer verification	9	RT-1002	OPEN
+RISK-1003	Third-party dependency	16	RT-1004	OPEN
+RISK-2001	Borrower credit deterioration	15	RT-1003	IN_PROGRESS
+RISK-2002	Liquidity mismatch	8	Monitoring	OPEN
+RISK-2003	Counterparty exposure	12	Enhanced due diligence	OPEN
+
+3. Risk mitigation observations
+Payment processing
+The payment processing risk remains under treatment. Improved availability monitoring and incident escalation are being implemented.
+
+Customer onboarding
+KYC control enhancements remain open. The compliance function is responsible for ensuring that the new verification checkpoints are implemented.
+
+Third-party services
+Third-party dependency risk remains elevated. Continuity assessment and service-level monitoring are planned.
+
+Credit risk
+The overdue installment associated with LOAN-1003 requires continued monitoring. Updated collateral documentation is also outstanding.
+
+4. Residual risk
+
+Residual risk represents exposure remaining after existing controls and treatment activities are considered.
+
+Residual risk should be reassessed after the implementation of treatment actions. It must not automatically be assumed to be lower than inherent risk without supporting evidence.
+
+5. Management recommendations
+Prioritize high-risk open treatments.
+Require evidence before treatment closure.
+Monitor overdue corrective actions.
+Review residual risk periodically.
+Escalate material changes to senior management.
+Link risk reporting with internal audit findings.
+6. Ontology relationships
+
+Risk IS_A RiskManagementEntity.
+RiskAssessment IS_A RiskManagementEntity.
+RiskTreatment IS_A RiskManagementEntity.
+RiskAssessment ASSESSES Risk.
+RiskTreatment TREATS Risk.
+ManagementReview REVIEWS RiskAssessment.
+CorrectiveAction IMPLEMENTS RiskTreatment.
+
+7. RAG retrieval questions
+Which risk has the highest inherent score?
+What treatment addresses payment processing risk?
+Which risks remain open?
+Which loan is connected to credit risk?
+What is residual risk?
+How does risk mitigation connect to management review?

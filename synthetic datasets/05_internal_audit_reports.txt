@@ -1,0 +1,55 @@
+1. Internal audit overview
+Internal Audit independently evaluates the effectiveness of organizational controls, risk management, and governance.
+The InternalAudit entity belongs to GovernanceEntity in the supplied ontology.
+
+2. Synthetic audit report IA-1001
+Audit Scope: Payment Operations
+Audit Period: Q3 2026
+Audit Status: COMPLETED
+Risk Rating: MEDIUM
+Findings: 2
+
+Audit Owner: Internal Audit Department
+Finding 1: Reconciliation Evidence
+Selected payment reconciliation records did not retain sufficient supporting evidence for independent review.
+
+Finding 2: Exception Escalation
+Some payment exceptions did not have documented escalation timelines.
+
+Recommendations
+Standardize evidence retention.
+Establish exception escalation ownership.
+Introduce periodic reconciliation reviews.
+Track remediation through management reporting.
+
+3. Synthetic audit report IA-1002
+Audit Scope: Customer KYC Operations
+Audit Period: Q3 2026
+Status: COMPLETED
+Risk Rating: HIGH
+Findings: 3
+Findings
+Incomplete periodic review documentation.
+Delayed closure of customer documentation exceptions.
+Inconsistent evidence references.
+
+Recommendations
+Introduce a centralized KYC evidence repository and a documented escalation process.
+
+4. Audit lifecycle
+Audit planning.
+Scope approval.
+Risk assessment.
+Evidence collection.
+Testing.
+Finding classification.
+Reporting.
+Management response.
+Corrective action.
+Follow-up verification.
+
+5. RAG questions
+Which audit identified payment reconciliation evidence issues?
+What was the risk rating of IA-1002?
+How many findings were recorded?
+Which corrective actions were recommended?

@@ -1,0 +1,55 @@
+1. Risk treatment overview
+RiskTreatment represents an activity designed to modify identified risk exposure.
+
+Common treatment approaches include:
+
+Risk mitigation.
+Risk avoidance.
+Risk transfer.
+Risk acceptance.
+2. Synthetic treatment records
+RT-1001
+Related Risk: RISK-1001
+Strategy: MITIGATION
+Owner: Payment Operations
+Action: Improve payment service monitoring and incident escalation.
+Target Date: 2026-11-30
+Status: IN_PROGRESS
+RT-1002
+Related Risk: RISK-1002
+Strategy: MITIGATION
+Owner: Customer Compliance
+Action: Introduce KYC verification checkpoints.
+Target Date: 2026-11-20
+Status: OPEN
+RT-1003
+Related Risk: RISK-2001
+Strategy: MITIGATION
+Owner: Credit Risk
+Action: Review overdue repayment and collateral documentation.
+Target Date: 2026-11-15
+Status: IN_PROGRESS
+RT-1004
+Related Risk: RISK-1003
+Strategy: MITIGATION
+Owner: Third-Party Risk Management
+Action: Complete service provider continuity assessment.
+Target Date: 2026-12-10
+Status: OPEN
+
+3. Risk treatment governance
+Every treatment must be associated with:
+
+Identified risk.
+Risk owner.
+Approved treatment strategy.
+Corrective action.
+Target date.
+Completion evidence.
+Residual risk assessment.
+
+4. RAG questions
+Which treatment addresses RISK-1001?
+Who owns RT-1003?
+What is the target date of RT-1004?
+What is the difference between RiskAssessment and RiskTreatment?

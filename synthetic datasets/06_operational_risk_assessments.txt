@@ -1,0 +1,69 @@
+1. Operational risk overview
+Operational risk is the risk of loss arising from inadequate or failed internal processes, people, systems, or external events.
+
+The bank evaluates operational risks across:
+Payment operations.
+Customer onboarding.
+AML operations.
+Loan processing.
+Reconciliation.
+Information technology.
+Third-party services.
+Business continuity.
+Data management.
+
+2. Risk assessment RA-1001: Payment Processing
+Risk ID: RISK-1001
+Assessment ID: RA-1001
+Domain: Payment Processing
+Likelihood: 3
+Impact: 4
+Inherent Score: 12
+Classification: HIGH
+Owner: Operations Risk
+Description
+
+A payment processing outage could delay customer transactions and settlement activities.
+
+Existing controls
+Transaction monitoring.
+Processing availability monitoring.
+Exception handling.
+Operational incident escalation.
+Reconciliation controls.
+Recommended treatment
+Strengthen transaction monitoring.
+Improve service availability reporting.
+Test recovery procedures.
+Establish documented incident escalation.
+
+3. Risk assessment RA-1002: Customer Onboarding
+Risk ID: RISK-1002
+Domain: KYC Operations
+Likelihood: 3
+Impact: 3
+Inherent Score: 9
+Classification: MEDIUM
+Description
+
+Incomplete customer verification may result in inappropriate onboarding or compliance gaps.
+
+Recommended treatment:Introduce mandatory verification checkpoints and periodic quality reviews.
+
+4. Risk assessment RA-1003: Third-Party Dependency
+Risk ID: RISK-1003
+Domain: Technology Operations
+Likelihood: 4
+Impact: 4
+Inherent Score: 16
+Classification: HIGH
+Description
+Dependence on external payment service providers may expose the bank to service interruption and processing delays.
+
+Recommended treatment:Establish contingency arrangements, service-level monitoring, and periodic third-party assessments.
+
+5. RAG questions
+Which operational risk has the highest inherent score?
+What risk is associated with payment processing?
+Which controls mitigate RISK-1001?
+What is the risk score of RA-1003?

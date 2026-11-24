@@ -1,0 +1,52 @@
+1. Repayment overview
+Loan repayment monitoring records principal and interest payments made by borrowers.
+
+The system maintains:
+Due date.
+Installment amount.
+Principal component.
+Interest component.
+Payment date.
+Outstanding balance.
+Days past due.
+Repayment status.
+
+2. Synthetic repayment records
+LOAN-1001
+
+Borrower: CUST-1001
+
+Installment	Due Date	Amount	Status
+INST-1001	2026-10-01	INR 16,485	PAID
+INST-1002	2026-11-01	INR 16,485	SCHEDULED
+INST-1003	2026-12-01	INR 16,485	SCHEDULED
+LOAN-1002
+
+Borrower: CUST-1002
+
+Installment	Due Date	Amount	Status
+INST-2001	2026-10-05	INR 67,400	PAID
+INST-2002	2026-11-05	INR 67,400	SCHEDULED
+INST-2003	2026-12-05	INR 67,400	SCHEDULED
+LOAN-1003
+
+Borrower: CUST-1003
+
+Installment	Due Date	Amount	Status
+INST-3001	2026-10-10	INR 28,000	OVERDUE
+INST-3002	2026-11-10	INR 28,000	SCHEDULED
+
+3. Delinquency monitoring
+An overdue installment may trigger:
+Customer notification.
+Collection workflow.
+Delinquency classification.
+Credit risk reassessment.
+Management escalation.
+LOAN-1003 has an overdue synthetic installment and requires additional monitoring.
+
+4. RAG retrieval questions
+Which loan has an overdue installment?
+What was the payment amount for INST-2001?
+Which borrower is associated with LOAN-1003?
+What actions may follow a missed repayment?

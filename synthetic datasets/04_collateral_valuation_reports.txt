@@ -1,0 +1,47 @@
+1. Collateral overview
+Collateral is an asset pledged to support a financial obligation.
+
+Collateral may include:
+Residential property.
+Commercial property.
+Land.
+Fixed deposits.
+Eligible securities.
+Equipment.
+Other accepted financial assets.
+
+Collateral valuation helps determine the security available to support a loan.
+
+2. Synthetic valuation records
+COL-1001
+Borrower: CUST-1002
+Loan: LOAN-1002
+Asset Type: Commercial Property
+Estimated Market Value: INR 3,800,000
+Valuation Date: 2026-09-15
+Valuation Status: ACCEPTED
+Valuation Method: Synthetic independent valuation
+COL-1002
+Borrower: CUST-1003
+Loan: LOAN-1003
+Asset Type: Residential Property
+Estimated Market Value: INR 1,450,000
+Valuation Date: 2026-09-20
+Valuation Status: CONDITIONAL
+Outstanding Requirement: Updated ownership verification
+
+3. Loan-to-value calculation
+
+Loan-to-value ratio is calculated as:
+LTV = Loan Amount / Collateral Value × 100
+For LOAN-1002:
+LTV = 2,500,000 / 3,800,000 × 100
+LTV = 65.79%
+
+This is an illustrative calculation and does not constitute an approval threshold.
+
+4. RAG retrieval questions
+Which collateral supports LOAN-1002?
+What is the estimated value of COL-1001?
+Why is COL-1002 conditional?
+How is the loan-to-value ratio calculated?

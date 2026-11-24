@@ -1,0 +1,59 @@
+1. Assessment overview
+ComplianceAssessment represents a formal evaluation of whether an organizational process or business activity satisfies applicable obligations and internal requirements.
+
+An assessment records:
+Assessment identifier.
+Scope.
+Assessment period.
+Applicable standard.
+Responsible compliance entity.
+Findings.
+Evidence.
+Exceptions.
+Overall status.
+
+2. Synthetic assessments
+CA-1001: KYC Compliance Assessment
+Scope: Customer onboarding and periodic review
+Period: Q3 2026
+Status: PARTIALLY_COMPLIANT
+Exceptions: 2
+Owner: Compliance Department
+
+Finding:
+Selected customer records did not contain sufficient evidence of completed periodic KYC review.
+
+CA-1002: AML Monitoring Assessment
+Scope: Transaction monitoring and case management
+Period: Q3 2026
+Status: NEEDS_IMPROVEMENT
+Exceptions: 1
+Owner: AML Operations
+
+Finding:The review identified delayed closure of selected transaction monitoring alerts.
+
+CA-1003: Information Security Assessment
+Scope: Access management and backup controls
+Period: Q3 2026
+Status: COMPLIANT_WITH_OBSERVATIONS
+Exceptions: 0
+Owner: Information Security
+
+Finding:The assessment found that primary controls operated as designed, but evidence retention and periodic access review documentation should be strengthened.
+
+3. Assessment lifecycle
+Assessment planning.
+Scope definition.
+Evidence collection.
+Control evaluation.
+Finding identification.
+Exception classification.
+Corrective action assignment.
+Closure verification.
+Management reporting.
+
+4. RAG questions
+Which assessment identified delayed AML alert closure?
+What was the status of CA-1003?
+Which team owns CA-1001?
+What is the difference between a ComplianceAssessment and ComplianceException?

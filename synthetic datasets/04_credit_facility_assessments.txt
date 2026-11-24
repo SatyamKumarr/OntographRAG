@@ -1,0 +1,59 @@
+1. Credit facility overview
+A CreditFacility defines the approved credit arrangement between the financial institution and the borrower.
+
+A facility may include:
+Approved credit limit.
+Utilized amount.
+Available amount.
+Interest rate.
+Maturity date.
+Repayment conditions.
+Security requirements.
+Covenants.
+Review frequency.
+
+Loan is a specialized FinancialProduct and CreditFacility in the supplied ontology.
+
+2. Synthetic credit assessments
+CF-1001
+Borrower: CUST-1001
+Related Loan: LOAN-1001
+Approved Limit: INR 500,000
+Utilized Amount: INR 450,000
+Available Amount: INR 50,000
+Risk Rating: LOW
+Review Frequency: Annual
+Status: ACTIVE
+CF-1002
+Borrower: CUST-1002
+Related Loan: LOAN-1002
+Approved Limit: INR 2,500,000
+Utilized Amount: INR 2,250,000
+Available Amount: INR 250,000
+Risk Rating: MEDIUM
+Review Frequency: Quarterly
+Status: ACTIVE
+CF-1003
+Borrower: CUST-1003
+Related Loan: LOAN-1003
+Requested Limit: INR 1,200,000
+Risk Rating: UNDER_REVIEW
+Missing Evidence: Updated collateral documentation
+Status: PENDING
+3. Credit assessment dimensions
+
+The assessment evaluates:
+
+Repayment capacity.
+Debt-to-income ratio.
+Existing liabilities.
+Income stability.
+Business cash flow.
+Collateral coverage.
+Industry risk.
+Customer repayment behavior.
+4. RAG questions
+What is the available limit under CF-1001?
+Which facility has a medium risk rating?
+Why is CF-1003 pending?
+What information is used in a credit facility assessment?

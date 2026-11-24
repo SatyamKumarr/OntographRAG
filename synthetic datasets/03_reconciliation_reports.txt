@@ -1,0 +1,58 @@
+PAYMENT RECONCILIATION REPORTS
+Reporting Period: October 2026
+
+1. Reconciliation overview
+Reconciliation compares transaction records across internal banking systems and external payment networks.
+
+The objective is to identify:
+Missing transactions.
+Duplicate entries.
+Amount mismatches.
+Settlement delays.
+Incorrect posting.
+Unresolved reversals.
+Outstanding clearing records.
+
+2. Synthetic reconciliation cases
+REC-1001
+Associated Payment: PAY-2026-0001
+Internal Ledger Amount: INR 48,500
+Clearing Amount: INR 48,500
+Settlement Amount: INR 48,500
+Difference: INR 0
+Status: MATCHED
+
+REC-1002
+Associated Payment: PAY-2026-0010
+Internal Ledger Amount: INR 8,900
+Clearing Amount: INR 8,900
+Settlement Amount: INR 8,900
+Difference: INR 0
+Status: MATCHED
+
+REC-1003
+Associated Payment: PAY-2026-0012
+Internal Ledger Amount: INR 67,000
+Clearing Amount: INR 67,000
+Settlement Amount: Pending
+Difference: INR 67,000 outstanding
+Status: EXCEPTION
+
+3. Exception management
+An exception is created when a reconciliation process identifies an unresolved difference.
+
+The exception must include:
+Exception identifier.
+Payment identifier.
+Amount under investigation.
+Originating system.
+Root cause.
+Assigned employee.
+Resolution status.
+Supporting evidence.
+
+RAG retrieval questions
+Which reconciliation case has an outstanding difference?
+What was the difference identified in REC-1003?
+Which payment has a matched reconciliation?
+What evidence is required to close a reconciliation exception?

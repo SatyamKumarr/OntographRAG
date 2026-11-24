@@ -1,0 +1,49 @@
+1. Management review overview
+ManagementReview is a governance activity through which senior management evaluates organizational performance, risk exposure, compliance status, audit findings, and corrective action progress.
+
+2. Synthetic review MR-1001
+Review Period: Q3 2026
+Participants: Chief Risk Officer, Chief Compliance Officer, Head of Operations
+Review Date: 2026-10-15
+Status: COMPLETED
+Key topics
+AML monitoring performance.
+KYC remediation.
+Payment reconciliation exceptions.
+Information security incidents.
+Loan portfolio quality.
+Internal audit findings.
+Operational risk indicators.
+Management decisions
+Increase monitoring of overdue AML alerts.
+Complete outstanding KYC remediation.
+Improve reconciliation evidence.
+Introduce quarterly review of high-risk third parties.
+Strengthen tracking of audit corrective actions.
+
+3. Synthetic review MR-1002
+Review Period: Q3 2026
+Review Date: 2026-10-20
+Status: COMPLETED
+Focus
+
+Information security, business continuity, and data protection.
+
+Decisions
+Review privileged access.
+Test backup recovery.
+Validate recovery objectives.
+Improve privacy evidence retention.
+
+4. Management review relationships
+ManagementReview REVIEWS ComplianceAssessment.
+ManagementReview REVIEWS InternalAudit.
+ManagementReview EVALUATES RiskAssessment.
+ManagementReview APPROVES CorrectiveAction.
+ManagementReview REPORTS_TO GovernanceEntity.
+
+5. RAG questions
+Which management review covered AML monitoring?
+What decisions were made in MR-1001?
+Which review addressed information security?
+How does management oversight relate to internal audit?

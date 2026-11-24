@@ -1,0 +1,38 @@
+1. Exception management
+A ComplianceException represents a deviation from an applicable regulatory obligation, policy, standard, or internal control. Each exception is assigned a unique identifier and tracked through resolution.
+
+2. Synthetic exception records
+CEX-1001
+Assessment: CA-1001
+Category: KYC Documentation
+Severity: MEDIUM
+Description: Periodic KYC review evidence was incomplete.
+Status: OPEN
+Corrective Action: ACT-1001
+Responsible Team: Customer Compliance
+CEX-1002
+Assessment: CA-1002
+Category: AML Alert Management
+Severity: HIGH
+Description: Selected monitoring alerts exceeded internal review timelines.
+Status: IN_PROGRESS
+Corrective Action: ACT-1002
+Responsible Team: AML Operations
+CEX-1003
+Assessment: CA-1001
+Category: Evidence Retention
+Severity: LOW
+Description: Selected customer records contained incomplete supporting documentation references.
+Status: OPEN
+Corrective Action: ACT-1003
+
+3. Exception lifecycle
+OPEN → ASSIGNED → IN_PROGRESS → PENDING_VALIDATION → CLOSED.
+
+An exception cannot be marked CLOSED solely because a corrective action has been assigned. Closure requires evidence that the issue has been resolved and independently validated where required.
+
+4. RAG questions
+Which exception has high severity?
+Which assessment identified CEX-1002?
+What corrective action is assigned to CEX-1001?
+What conditions are required before an exception can be closed?
