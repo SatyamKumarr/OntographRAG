@@ -1,0 +1,54 @@
+# Ignore git files
+.git
+.gitignore
+
+# Ignore environment files
+.env
+
+# Ignore uploads and test files
+uploads/
+test_*
+*.pdf
+*.json
+*.owl
+*.txt
+!requirements.txt
+!requirements-prod.txt
+!requirements-frozen.txt
+
+# Ignore documentation and summary files
+BUG_FIXES_SUMMARY.md
+IMPROVEMENTS_README.md
+*_SUMMARY.md
+*_README.md
+!README.md
+
+# Ignore temporary and generated files
+chroma_db/
+vector_stores/
+kg_storage/
+*.sqlite3
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+venv/
+env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore coverage files
+.coverage
+htmlcov/

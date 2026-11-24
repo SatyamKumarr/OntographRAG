@@ -1,0 +1,121 @@
+# Superpowers / agent artifacts
+.superpowers/
+.agents/skills/
+.firecrawl/
+.playwright-mcp/
+.sesskey
+skills-lock.json
+docs/superpowers/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.envrc
+.venv
+venv/
+env/
+
+# OS
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# ── Experiment datasets ─────────────────────────────────────────────────────
+# Local benchmark workspace and raw dataset files
+MIRAGE/
+data/
+
+# ── Experiment outputs ──────────────────────────────────────────────────────
+results/
+wandb/
+
+# ── Uploaded / processed files ──────────────────────────────────────────────
+uploads/
+chroma_db/
+vector_stores/
+kg_storage/
+*.sqlite3
+neo4j_data/
+
+# ── Generated test/output artefacts ─────────────────────────────────────────
+test_*.txt
+test_*.json
+test_*.pdf
+kg_test.txt
+*_output.json
+
+# ── Slides, presentations, bibliography ──────────────────────────────────────
+slides/
+references.bib
+
+# ── Stray directories ─────────────────────────────────────────────────────────
+Users/
+Library/
+
+# Ignore internal Markdown notes, but publish the README-referenced docs.
+*.md
+!README.md
+!**/README.md
+!KG_GENERATION_PIPELINE.md
+!EVALUATION_METRICS.md
+
+# ── Nested repos / vendored libraries ────────────────────────────────────────
+semantic_uncertainty/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Downloaded reference PDFs ────────────────────────────────────────────────
+paper/pdfs/
+
+# ── LaTeX source and build artefacts ─────────────────────────────────────────
+paper/
+*.tex
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+node_modules/
+apoc/
+*.tmp
+.cache/
+
+# ── Release/reproducibility bundles ─────────────────────────────────────────
+!reproducibility/
+!reproducibility/arxiv_v1/
+!reproducibility/arxiv_v1/**
+
+# Keep the bundled paper snapshot local-only; canonical source is on arXiv.
+reproducibility/arxiv_v1/paper/
