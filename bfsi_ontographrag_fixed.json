@@ -1,0 +1,1524 @@
+{
+  "classes": [
+    {
+      "id": "AMLCase",
+      "name": "AMLCase",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#AMLCase",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ComplianceEntity",
+      "name": "ComplianceEntity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ComplianceEntity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "BFSI_domain_ontology",
+      "name": "BFSI_domain_ontology",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#BFSI_domain_ontology",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Account",
+      "name": "Account",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Account",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "FinancialProduct",
+      "name": "FinancialProduct",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#FinancialProduct",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Authorization",
+      "name": "Authorization",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Authorization",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "FinancialTransaction",
+      "name": "FinancialTransaction",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#FinancialTransaction",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Backup",
+      "name": "Backup",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Backup",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "InformationSecurityEntity",
+      "name": "InformationSecurityEntity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#InformationSecurityEntity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Beneficiary",
+      "name": "Beneficiary",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Beneficiary",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "FinancialEntity",
+      "name": "FinancialEntity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#FinancialEntity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Branch",
+      "name": "Branch",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Branch",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Chargeback",
+      "name": "Chargeback",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Chargeback",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ClearingRecord",
+      "name": "ClearingRecord",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ClearingRecord",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Collateral",
+      "name": "Collateral",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Collateral",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ComplianceAssessment",
+      "name": "ComplianceAssessment",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ComplianceAssessment",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ComplianceException",
+      "name": "ComplianceException",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ComplianceException",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ComplianceStatus",
+      "name": "ComplianceStatus",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ComplianceStatus",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Consent",
+      "name": "Consent",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Consent",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Control",
+      "name": "Control",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Control",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "GovernanceEntity",
+      "name": "GovernanceEntity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#GovernanceEntity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "CorrectiveAction",
+      "name": "CorrectiveAction",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#CorrectiveAction",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "CreditFacility",
+      "name": "CreditFacility",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#CreditFacility",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Customer",
+      "name": "Customer",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Customer",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "CustomerComplaint",
+      "name": "CustomerComplaint",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#CustomerComplaint",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "DataAsset",
+      "name": "DataAsset",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#DataAsset",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "InformationAsset",
+      "name": "InformationAsset",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#InformationAsset",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "DigitalWallet",
+      "name": "DigitalWallet",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#DigitalWallet",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Employee",
+      "name": "Employee",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Employee",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "EvidenceArtifact",
+      "name": "EvidenceArtifact",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#EvidenceArtifact",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ISO8583Message",
+      "name": "ISO8583Message",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ISO8583Message",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "PaymentMessage",
+      "name": "PaymentMessage",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#PaymentMessage",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "PaymentProcessingEntity",
+      "name": "PaymentProcessingEntity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#PaymentProcessingEntity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "InsurancePolicy",
+      "name": "InsurancePolicy",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#InsurancePolicy",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "InternalAudit",
+      "name": "InternalAudit",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#InternalAudit",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "InvestmentHolding",
+      "name": "InvestmentHolding",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#InvestmentHolding",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "KYC",
+      "name": "KYC",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#KYC",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Loan",
+      "name": "Loan",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Loan",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ManagementReview",
+      "name": "ManagementReview",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ManagementReview",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Merchant",
+      "name": "Merchant",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Merchant",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Nonconformity",
+      "name": "Nonconformity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Nonconformity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Organization",
+      "name": "Organization",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Organization",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Payment",
+      "name": "Payment",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Payment",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "PaymentCard",
+      "name": "PaymentCard",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#PaymentCard",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "PaymentInstruction",
+      "name": "PaymentInstruction",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#PaymentInstruction",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "PaymentTerminal",
+      "name": "PaymentTerminal",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#PaymentTerminal",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Policy",
+      "name": "Policy",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Policy",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "PrivacyProcessingActivity",
+      "name": "PrivacyProcessingActivity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#PrivacyProcessingActivity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "QualityMetric",
+      "name": "QualityMetric",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#QualityMetric",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Reconciliation",
+      "name": "Reconciliation",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Reconciliation",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "RecoveryObjective",
+      "name": "RecoveryObjective",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#RecoveryObjective",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Refund",
+      "name": "Refund",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Refund",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "RegulatoryObligation",
+      "name": "RegulatoryObligation",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#RegulatoryObligation",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "RegulatoryReport",
+      "name": "RegulatoryReport",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#RegulatoryReport",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Risk",
+      "name": "Risk",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Risk",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "RiskManagementEntity",
+      "name": "RiskManagementEntity",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#RiskManagementEntity",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "RiskAssessment",
+      "name": "RiskAssessment",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#RiskAssessment",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "RiskTreatment",
+      "name": "RiskTreatment",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#RiskTreatment",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "SecurityIncident",
+      "name": "SecurityIncident",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#SecurityIncident",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Settlement",
+      "name": "Settlement",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Settlement",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Standard",
+      "name": "Standard",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Standard",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "StandardRequirement",
+      "name": "StandardRequirement",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#StandardRequirement",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "SuspiciousActivityReport",
+      "name": "SuspiciousActivityReport",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#SuspiciousActivityReport",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "ThirdParty",
+      "name": "ThirdParty",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#ThirdParty",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    },
+    {
+      "id": "Vulnerability",
+      "name": "Vulnerability",
+      "uri": "http://www.semanticweb.org/satyamkumar/ontologies/BFSI-Ontology-271026_v1.2#Vulnerability",
+      "properties": [
+        {
+          "name": "name",
+          "type": "string",
+          "identifier": true
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "IS_A_AMLCase_ComplianceEntity",
+      "name": "IS_A",
+      "from": "AMLCase",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_AMLCase_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "AMLCase",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Account_FinancialProduct",
+      "name": "IS_A",
+      "from": "Account",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_Account_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Account",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Authorization_FinancialTransaction",
+      "name": "IS_A",
+      "from": "Authorization",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_Authorization_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Authorization",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Backup_InformationSecurityEntity",
+      "name": "IS_A",
+      "from": "Backup",
+      "to": "InformationSecurityEntity"
+    },
+    {
+      "id": "IS_A_Backup_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Backup",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Beneficiary_FinancialEntity",
+      "name": "IS_A",
+      "from": "Beneficiary",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_Beneficiary_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Beneficiary",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Branch_FinancialEntity",
+      "name": "IS_A",
+      "from": "Branch",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_Branch_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Branch",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Chargeback_FinancialTransaction",
+      "name": "IS_A",
+      "from": "Chargeback",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_Chargeback_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Chargeback",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ClearingRecord_FinancialTransaction",
+      "name": "IS_A",
+      "from": "ClearingRecord",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_ClearingRecord_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ClearingRecord",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Collateral_FinancialProduct",
+      "name": "IS_A",
+      "from": "Collateral",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_Collateral_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Collateral",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ComplianceAssessment_ComplianceEntity",
+      "name": "IS_A",
+      "from": "ComplianceAssessment",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_ComplianceAssessment_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ComplianceAssessment",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ComplianceEntity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ComplianceEntity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ComplianceException_ComplianceEntity",
+      "name": "IS_A",
+      "from": "ComplianceException",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_ComplianceException_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ComplianceException",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ComplianceStatus_ComplianceEntity",
+      "name": "IS_A",
+      "from": "ComplianceStatus",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_ComplianceStatus_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ComplianceStatus",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Consent_ComplianceEntity",
+      "name": "IS_A",
+      "from": "Consent",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_Consent_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Consent",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Control_GovernanceEntity",
+      "name": "IS_A",
+      "from": "Control",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_Control_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Control",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_CorrectiveAction_GovernanceEntity",
+      "name": "IS_A",
+      "from": "CorrectiveAction",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_CorrectiveAction_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "CorrectiveAction",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_CreditFacility_FinancialProduct",
+      "name": "IS_A",
+      "from": "CreditFacility",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_CreditFacility_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "CreditFacility",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Customer_FinancialEntity",
+      "name": "IS_A",
+      "from": "Customer",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_Customer_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Customer",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_CustomerComplaint_ComplianceEntity",
+      "name": "IS_A",
+      "from": "CustomerComplaint",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_CustomerComplaint_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "CustomerComplaint",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_DataAsset_InformationAsset",
+      "name": "IS_A",
+      "from": "DataAsset",
+      "to": "InformationAsset"
+    },
+    {
+      "id": "IS_A_DataAsset_InformationSecurityEntity",
+      "name": "IS_A",
+      "from": "DataAsset",
+      "to": "InformationSecurityEntity"
+    },
+    {
+      "id": "IS_A_DataAsset_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "DataAsset",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_DigitalWallet_FinancialProduct",
+      "name": "IS_A",
+      "from": "DigitalWallet",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_DigitalWallet_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "DigitalWallet",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Employee_FinancialEntity",
+      "name": "IS_A",
+      "from": "Employee",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_Employee_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Employee",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_EvidenceArtifact_GovernanceEntity",
+      "name": "IS_A",
+      "from": "EvidenceArtifact",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_EvidenceArtifact_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "EvidenceArtifact",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_FinancialEntity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "FinancialEntity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_FinancialProduct_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "FinancialProduct",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_FinancialTransaction_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "FinancialTransaction",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_GovernanceEntity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "GovernanceEntity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ISO8583Message_PaymentMessage",
+      "name": "IS_A",
+      "from": "ISO8583Message",
+      "to": "PaymentMessage"
+    },
+    {
+      "id": "IS_A_ISO8583Message_PaymentProcessingEntity",
+      "name": "IS_A",
+      "from": "ISO8583Message",
+      "to": "PaymentProcessingEntity"
+    },
+    {
+      "id": "IS_A_ISO8583Message_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ISO8583Message",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_InformationAsset_InformationSecurityEntity",
+      "name": "IS_A",
+      "from": "InformationAsset",
+      "to": "InformationSecurityEntity"
+    },
+    {
+      "id": "IS_A_InformationAsset_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "InformationAsset",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_InformationSecurityEntity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "InformationSecurityEntity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_InsurancePolicy_FinancialProduct",
+      "name": "IS_A",
+      "from": "InsurancePolicy",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_InsurancePolicy_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "InsurancePolicy",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_InternalAudit_GovernanceEntity",
+      "name": "IS_A",
+      "from": "InternalAudit",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_InternalAudit_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "InternalAudit",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_InvestmentHolding_FinancialProduct",
+      "name": "IS_A",
+      "from": "InvestmentHolding",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_InvestmentHolding_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "InvestmentHolding",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_KYC_ComplianceEntity",
+      "name": "IS_A",
+      "from": "KYC",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_KYC_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "KYC",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Loan_CreditFacility",
+      "name": "IS_A",
+      "from": "Loan",
+      "to": "CreditFacility"
+    },
+    {
+      "id": "IS_A_Loan_FinancialProduct",
+      "name": "IS_A",
+      "from": "Loan",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_Loan_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Loan",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ManagementReview_GovernanceEntity",
+      "name": "IS_A",
+      "from": "ManagementReview",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_ManagementReview_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ManagementReview",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Merchant_FinancialEntity",
+      "name": "IS_A",
+      "from": "Merchant",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_Merchant_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Merchant",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Nonconformity_GovernanceEntity",
+      "name": "IS_A",
+      "from": "Nonconformity",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_Nonconformity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Nonconformity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Organization_FinancialEntity",
+      "name": "IS_A",
+      "from": "Organization",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_Organization_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Organization",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Payment_FinancialTransaction",
+      "name": "IS_A",
+      "from": "Payment",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_Payment_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Payment",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_PaymentCard_FinancialProduct",
+      "name": "IS_A",
+      "from": "PaymentCard",
+      "to": "FinancialProduct"
+    },
+    {
+      "id": "IS_A_PaymentCard_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "PaymentCard",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_PaymentInstruction_PaymentProcessingEntity",
+      "name": "IS_A",
+      "from": "PaymentInstruction",
+      "to": "PaymentProcessingEntity"
+    },
+    {
+      "id": "IS_A_PaymentInstruction_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "PaymentInstruction",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_PaymentMessage_PaymentProcessingEntity",
+      "name": "IS_A",
+      "from": "PaymentMessage",
+      "to": "PaymentProcessingEntity"
+    },
+    {
+      "id": "IS_A_PaymentMessage_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "PaymentMessage",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_PaymentProcessingEntity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "PaymentProcessingEntity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_PaymentTerminal_PaymentProcessingEntity",
+      "name": "IS_A",
+      "from": "PaymentTerminal",
+      "to": "PaymentProcessingEntity"
+    },
+    {
+      "id": "IS_A_PaymentTerminal_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "PaymentTerminal",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Policy_GovernanceEntity",
+      "name": "IS_A",
+      "from": "Policy",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_Policy_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Policy",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_PrivacyProcessingActivity_ComplianceEntity",
+      "name": "IS_A",
+      "from": "PrivacyProcessingActivity",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_PrivacyProcessingActivity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "PrivacyProcessingActivity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_QualityMetric_GovernanceEntity",
+      "name": "IS_A",
+      "from": "QualityMetric",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_QualityMetric_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "QualityMetric",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Reconciliation_FinancialTransaction",
+      "name": "IS_A",
+      "from": "Reconciliation",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_Reconciliation_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Reconciliation",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_RecoveryObjective_GovernanceEntity",
+      "name": "IS_A",
+      "from": "RecoveryObjective",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_RecoveryObjective_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "RecoveryObjective",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Refund_FinancialTransaction",
+      "name": "IS_A",
+      "from": "Refund",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_Refund_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Refund",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_RegulatoryObligation_ComplianceEntity",
+      "name": "IS_A",
+      "from": "RegulatoryObligation",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_RegulatoryObligation_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "RegulatoryObligation",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_RegulatoryReport_ComplianceEntity",
+      "name": "IS_A",
+      "from": "RegulatoryReport",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_RegulatoryReport_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "RegulatoryReport",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Risk_RiskManagementEntity",
+      "name": "IS_A",
+      "from": "Risk",
+      "to": "RiskManagementEntity"
+    },
+    {
+      "id": "IS_A_Risk_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Risk",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_RiskAssessment_RiskManagementEntity",
+      "name": "IS_A",
+      "from": "RiskAssessment",
+      "to": "RiskManagementEntity"
+    },
+    {
+      "id": "IS_A_RiskAssessment_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "RiskAssessment",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_RiskManagementEntity_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "RiskManagementEntity",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_RiskTreatment_RiskManagementEntity",
+      "name": "IS_A",
+      "from": "RiskTreatment",
+      "to": "RiskManagementEntity"
+    },
+    {
+      "id": "IS_A_RiskTreatment_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "RiskTreatment",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_SecurityIncident_InformationSecurityEntity",
+      "name": "IS_A",
+      "from": "SecurityIncident",
+      "to": "InformationSecurityEntity"
+    },
+    {
+      "id": "IS_A_SecurityIncident_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "SecurityIncident",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Settlement_FinancialTransaction",
+      "name": "IS_A",
+      "from": "Settlement",
+      "to": "FinancialTransaction"
+    },
+    {
+      "id": "IS_A_Settlement_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Settlement",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Standard_GovernanceEntity",
+      "name": "IS_A",
+      "from": "Standard",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_Standard_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Standard",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_StandardRequirement_GovernanceEntity",
+      "name": "IS_A",
+      "from": "StandardRequirement",
+      "to": "GovernanceEntity"
+    },
+    {
+      "id": "IS_A_StandardRequirement_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "StandardRequirement",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_SuspiciousActivityReport_ComplianceEntity",
+      "name": "IS_A",
+      "from": "SuspiciousActivityReport",
+      "to": "ComplianceEntity"
+    },
+    {
+      "id": "IS_A_SuspiciousActivityReport_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "SuspiciousActivityReport",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_ThirdParty_FinancialEntity",
+      "name": "IS_A",
+      "from": "ThirdParty",
+      "to": "FinancialEntity"
+    },
+    {
+      "id": "IS_A_ThirdParty_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "ThirdParty",
+      "to": "BFSI_domain_ontology"
+    },
+    {
+      "id": "IS_A_Vulnerability_InformationSecurityEntity",
+      "name": "IS_A",
+      "from": "Vulnerability",
+      "to": "InformationSecurityEntity"
+    },
+    {
+      "id": "IS_A_Vulnerability_BFSI_domain_ontology",
+      "name": "IS_A",
+      "from": "Vulnerability",
+      "to": "BFSI_domain_ontology"
+    }
+  ]
+}
