@@ -60,10 +60,10 @@ The framework supports multiple model providers:
 ![OntographRAG UI](./assets/readme/OntographUI-demo-2.png)
 
 **Video:**
-
-<video width="720" height="540" controls>
+https://github.com/user-attachments/assets/d7bc1ced-d039-4453-83ee-370fe337fd25
+<!-- <video width="720" height="540" controls>
   <source src="./OntographRAG%20UI%20BFSI%20demo.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## Installation
 ### Requirements
